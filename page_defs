@@ -1,93 +1,116 @@
 #[BLOCK]
 {
   "_id": "index",
-  "template_id": "test_html_template",
+  "template_id": "outer",
   "width_percent": 100,
   "stylesheet_override": "",
-  "string_maps": [
-    {
-      "_id": "main_block_title",
-      "contents": "Hello from construct.rs"
-    },
-    {
-      "_id": "main_block_subtitle",
-      "contents": "I don't know what I am doing..."
-    }
-  ],
+  "string_maps": [],
 
   "blocks": [
     {
-      "_id": "sub_block_1",
-      "template_id": "test_html_template",
-      "width_percent": 30,
-      "stylesheet_override": "test_stylesheet_override_1",
+      "_id": "head",
+      "template_id": "head",
+      "width_percent": 100,
+      "stylesheet_override": "",
       "string_maps": [
         {
-          "_id": "main_block_title",
-          "contents": "This is my sub block #1!"
+          "_id": "main_title",
+          "contents": "This is a main title"
         },
         {
-          "_id": "main_block_subtitle",
-          "contents": "Hey paizanos!"
-        }
+          "_id": "main_subtitle",
+          "contents": "This is a subtitle"
+          }
       ],
 
-      "blocks": []
-    },
-
-    {
-      "_id": "sub_block_2",
-      "template_id": "test_html_template",
-      "width_percent": 70,
-      "stylesheet_override": "test_stylesheet_override_2",
-      "string_maps": [
+      "blocks": [
         {
-          "_id": "main_block_title",
-          "contents": "This is my sub block #2!"
+          "_id": "bg_left",
+          "template_id": "empty_html_template",
+          "width_percent": 10,
+          "stylesheet_override": "bg_dark",
+          "string_maps": [],
+
+          "blocks": []
         },
-        {
-          "_id": "main_block_subtitle",
-          "contents": "Fuggin' green Mario..."
-        }
-      ],
 
-      "blocks": []
+        {
+          "_id": "bg_mid",
+          "template_id": "empty_html_template",
+          "width_percent": 80,
+          "stylesheet_override": "bg_light",
+          "string_maps": [],
+
+          "blocks": []
+        },
+
+        {
+          "_id": "bg_right",
+          "template_id": "empty_html_template",
+          "width_percent": 10,
+          "stylesheet_override": "bg_dark",
+          "string_maps": [],
+
+          "blocks": []
+        }
+      ]
     }
   ]
 }
 
 #[TEMPLATE]
 {
-  "_id": "test_html_template",
-  "_stylesheet_id": "test_stylesheet",
-  "path": "template/index.html",
+  "_id": "outer",
+  "_stylesheet_id": "outer",
+  "path": "template/outer.html",
+  "default_string_maps": []
+}
+
+#[TEMPLATE]
+{
+  "_id": "head",
+  "_stylesheet_id": "head",
+  "path": "template/head.html",
   "default_string_maps": [
     {
-      "_id": "main_block_title",
+      "_id": "main_title",
       "contents": "This is a main title"
     },
     {
-      "_id": "main_block_subtitle",
+      "_id": "main_subtitle",
       "contents": "This is a subtitle"
     }
-
   ]
 }
 
-#[STYLESHEET]
+#[TEMPLATE]
 {
-  "_id": "test_stylesheet",
-  "path": "styles/test_stylesheet.css"
+  "_id": "empty_html_template",
+  "_stylesheet_id": "bg_dark",
+  "path": "template/empty.html",
+  "default_string_maps": []
 }
 
 #[STYLESHEET]
 {
-  "_id": "test_stylesheet_override_1",
-  "path": "styles/test_stylesheet_override_1.css"
+  "_id": "bg_dark",
+  "path": "styles/bg_dark.css"
 }
 
 #[STYLESHEET]
 {
-  "_id": "test_stylesheet_override_2",
-  "path": "styles/test_stylesheet_override_2.css"
+  "_id": "bg_light",
+  "path": "styles/bg_light.css"
+}
+
+#[STYLESHEET]
+{
+  "_id": "outer",
+  "path": "styles/outer.css"
+}
+
+#[STYLESHEET]
+{
+  "_id": "head",
+  "path": "styles/head.css"
 }

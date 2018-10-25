@@ -1,0 +1,16 @@
+body, html {
+  background-color: DarkGray;
+  padding: 0;
+  margin: 0;
+  overflow: visible;
+}
+
+h1 {
+  color: LightGray;
+  text-align: center;
+}
+
+h2 {
+  color: DimGray;
+  text-align: center;
+}
