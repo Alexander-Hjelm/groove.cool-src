@@ -1,6 +1,6 @@
 #[BLOCK]
 {
-  "_id": "main_block",
+  "_id": "index",
   "template_id": "test_html_template",
   "width_percent": 100,
   "stylesheet_override": "",
