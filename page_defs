@@ -7,54 +7,80 @@
   "string_maps": [],
 
   "blocks": [
-    {
-      "_id": "head",
-      "template_id": "head",
-      "width_percent": 100,
-      "stylesheet_override": "",
-      "string_maps": [
-        {
-          "_id": "main_title",
-          "contents": "This is a main title"
-        },
-        {
-          "_id": "main_subtitle",
-          "contents": "This is a subtitle"
-          }
-      ],
+    [
+      {
+        "_id": "head",
+        "template_id": "head",
+        "width_percent": 100,
+        "stylesheet_override": "",
+        "string_maps": [
+          {
+            "_id": "main_title",
+            "contents": "This is a main title"
+          },
+          {
+            "_id": "main_subtitle",
+            "contents": "This is a subtitle"
+            }
+        ],
 
-      "blocks": [
-        {
-          "_id": "bg_left",
-          "template_id": "empty_html_template",
-          "width_percent": 10,
-          "stylesheet_override": "bg_dark",
-          "string_maps": [],
+        "blocks": [
+          [
+            {
+              "_id": "bg_left",
+              "template_id": "empty_html_template",
+              "width_percent": 10,
+              "stylesheet_override": "bg_dark",
+              "string_maps": [],
 
-          "blocks": []
-        },
+              "blocks": [[]]
+            },
 
-        {
-          "_id": "bg_mid",
-          "template_id": "empty_html_template",
-          "width_percent": 80,
-          "stylesheet_override": "bg_light",
-          "string_maps": [],
+            {
+              "_id": "bg_mid",
+              "template_id": "empty_html_template",
+              "width_percent": 80,
+              "stylesheet_override": "bg_light",
+              "string_maps": [],
 
-          "blocks": []
-        },
+              "blocks": [[]]
+            },
 
-        {
-          "_id": "bg_right",
-          "template_id": "empty_html_template",
-          "width_percent": 10,
-          "stylesheet_override": "bg_dark",
-          "string_maps": [],
+            {
+              "_id": "bg_right",
+              "template_id": "empty_html_template",
+              "width_percent": 10,
+              "stylesheet_override": "bg_dark",
+              "string_maps": [],
 
-          "blocks": []
-        }
-      ]
-    }
+              "blocks": [[]]
+            }
+          ],
+          [
+            {
+              "_id": "idk_lol",
+              "template_id": "empty_html_template",
+              "width_percent": 100,
+              "stylesheet_override": "bg_dark",
+              "string_maps": [],
+
+              "blocks": [[]]
+            }
+          ],
+          [
+            {
+              "_id": "idk_lol_2",
+              "template_id": "empty_html_template",
+              "width_percent": 100,
+              "stylesheet_override": "bg_dark",
+              "string_maps": [],
+
+              "blocks": [[]]
+            }
+          ]
+        ]
+      }
+    ]
   ]
 }
 
