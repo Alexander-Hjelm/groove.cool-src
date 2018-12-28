@@ -11,7 +11,7 @@
         "_id": "bg_left",
         "template_id": "empty_html_template",
         "width_percent": 15,
-        "stylesheet_id": "bg_dark"
+        "stylesheet_id": "bg_dark_l"
       },
 
       {
@@ -36,11 +36,15 @@
               "_id": "game_entry_raze",
               "template_id": "game_entry_template",
               "width_percent": 100,
-              "stylesheet_id": "head",
+              "stylesheet_id": "game_entry",
               "string_maps": [
                 {
                   "_id": "title",
                   "contents": "RAZE"
+                },
+                {
+                  "_id": "img_src",
+                  "contents": "img/raze_main_banner.png"
                 }
               ]
             }
@@ -51,11 +55,15 @@
               "_id": "game_entry_vector_command",
               "template_id": "game_entry_template",
               "width_percent": 100,
-              "stylesheet_id": "head",
+              "stylesheet_id": "game_entry",
               "string_maps": [
                 {
                   "_id": "title",
                   "contents": "Vector Command"
+                },
+                {
+                  "_id": "img_src",
+                  "contents": "img/raze_main_banner.png"
                 }
               ]
             }
@@ -67,7 +75,7 @@
         "_id": "bg_right",
         "template_id": "empty_html_template",
         "width_percent": 15,
-        "stylesheet_id": "bg_dark"
+        "stylesheet_id": "bg_dark_r"
       }
     ]
 
@@ -100,8 +108,14 @@
 
 #[STYLESHEET]
 {
-  "_id": "bg_dark",
-  "path": "styles/bg_dark.css"
+  "_id": "bg_dark_l",
+  "path": "styles/bg_dark_l.css"
+}
+
+#[STYLESHEET]
+{
+  "_id": "bg_dark_r",
+  "path": "styles/bg_dark_r.css"
 }
 
 #[STYLESHEET]
@@ -120,4 +134,10 @@
 {
   "_id": "head",
   "path": "styles/head.css"
+}
+
+#[STYLESHEET]
+{
+  "_id": "game_entry",
+  "path": "styles/game_entry.css"
 }
