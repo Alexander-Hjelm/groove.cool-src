@@ -1,5 +1,4 @@
 body, html {
-  background-color: LightGray;
   padding: 0;
   margin: 0;
   overflow: visible;
@@ -21,5 +20,6 @@ hr {
 
 img {
   height: 235px;
+  width: 1000px;
   padding-left: 50px;
 }

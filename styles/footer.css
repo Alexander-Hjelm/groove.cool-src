@@ -1,0 +1,15 @@
+body, html {
+  background-image: linear-gradient(to top, #282e34 , #323a41);
+  overflow: visible;
+  height:160px;
+}
+
+p {
+  color: LightGray;
+  text-align: center;
+  padding-top: 20px;
+}
+
+div {
+  overflow: visible;
+}

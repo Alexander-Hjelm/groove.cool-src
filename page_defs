@@ -45,6 +45,10 @@
                 {
                   "_id": "img_src",
                   "contents": "img/raze_main_banner.png"
+                },
+                {
+                  "_id": "img_link",
+                  "contents": "game_raze.html"
                 }
               ]
             }
@@ -64,9 +68,22 @@
                 {
                   "_id": "img_src",
                   "contents": "img/raze_main_banner.png"
+                },
+                {
+                  "_id": "img_link",
+                  "contents": "game_vector_command.html"
                 }
               ]
             }
+          ],
+
+          [
+          {
+            "_id": "footer",
+            "template_id": "footer",
+            "width_percent": 100,
+            "stylesheet_id": "footer"
+          }
           ]
         ]
       },
@@ -82,6 +99,7 @@
   ]
 }
 
+
 #[TEMPLATE]
 {
   "_id": "outer",
@@ -92,6 +110,12 @@
 {
   "_id": "head",
   "path": "template/head.html"
+}
+
+#[TEMPLATE]
+{
+  "_id": "footer",
+  "path": "template/footer.html"
 }
 
 #[TEMPLATE]
@@ -134,6 +158,12 @@
 {
   "_id": "head",
   "path": "styles/head.css"
+}
+
+#[STYLESHEET]
+{
+  "_id": "footer",
+  "path": "styles/footer.css"
 }
 
 #[STYLESHEET]

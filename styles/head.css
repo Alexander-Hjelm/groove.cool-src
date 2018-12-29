@@ -1,5 +1,5 @@
 body, html {
-  background-color: DarkGray;
+  background-image: linear-gradient(to top, #282e34 , #323a41);
   padding: 0;
   margin: 0;
   overflow: visible;
@@ -48,4 +48,9 @@ li a {
 /* Change the link color to #111 (black) on hover */
 li a:hover {
   background-color: #111;
+}
+
+img {
+  padding-left: 8px;
+  padding-right: 8px;
 }
