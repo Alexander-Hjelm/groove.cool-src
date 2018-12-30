@@ -1,0 +1,20 @@
+body, html {
+  overflow: visible;
+  height: 100%;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+h1 {
+  color: Red;
+  text-align: left;
+}
+
+hr {
+  color: Red;
+  text-align: center;
+}
+
+p {
+  color: White;
+}

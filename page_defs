@@ -78,12 +78,12 @@
           ],
 
           [
-          {
-            "_id": "footer",
-            "template_id": "footer",
-            "width_percent": 100,
-            "stylesheet_id": "footer"
-          }
+            {
+              "_id": "footer",
+              "template_id": "footer",
+              "width_percent": 100,
+              "stylesheet_id": "footer"
+            }
           ]
         ]
       },
@@ -99,6 +99,127 @@
   ]
 }
 
+#[BLOCK]
+{
+  "_id": "game_raze",
+  "template_id": "outer",
+  "width_percent": 100,
+  "stylesheet_id": "outer",
+
+  "blocks": [
+    [
+      {
+        "_id": "bg_left_raze",
+        "template_id": "empty_html_template",
+        "width_percent": 15,
+        "stylesheet_id": "bg_dark_l"
+      },
+
+      {
+        "_id": "head_raze",
+        "template_id": "head",
+        "width_percent": 70,
+        "stylesheet_id": "head",
+        "string_maps": [
+          {
+            "_id": "main_title",
+            "contents": "Alexander Hjelm"
+          },
+          {
+            "_id": "main_subtitle",
+            "contents": "Game Developer"
+          }
+        ],
+
+        "blocks": [
+          [
+            {
+              "_id": "title_raze",
+              "template_id": "game_title_template",
+              "width_percent": 100,
+              "stylesheet_id": "game_title",
+              "string_maps": [
+                {
+                  "_id": "title",
+                  "contents": "RAZE"
+                },
+                {
+                  "_id": "img_src",
+                  "contents": "img/raze_main_banner.png"
+                }
+              ]
+
+            }
+          ],
+
+          [
+            {
+              "_id": "description_raze",
+              "template_id": "game_description_template",
+              "width_percent": 70,
+              "stylesheet_id": "game_description",
+              "string_maps": [
+                {
+                  "_id": "description",
+                  "contents": "This is a very game. This game is so game that once the game gods came down and gamed with such game that the game gods came down and gamed with such game that the game gods came down and gamed with such game that the game gods came down and gamed with such game that never gonna give up up. Never gonna let you down..."
+                },
+
+                {
+                  "_id": "download_link",
+                  "contents": "https://www.youtube.com/watch?v=6n3pFFPSlW4"
+                },
+
+                {
+                  "_id": "instructions_list",
+                  "contents": "<ul> <li>Press X to not die</li> <li>Press X to avoid dying</li> <li>Don't press X to die</li> <li>Don't press X to not not die</li> <li>Don't don't press X to not die</li></ul>"
+                }
+
+              ]
+            },
+
+            {
+              "_id": "screenshots_raze",
+              "template_id": "game_screenshots_template",
+              "width_percent": 30,
+              "stylesheet_id": "game_screenshots",
+              "string_maps": [
+                {
+                  "_id": "img_src_1",
+                  "contents": "img/raze_main_banner.png"
+                },
+                {
+                  "_id": "img_src_2",
+                  "contents": "img/raze_main_banner.png"
+                },
+                {
+                  "_id": "img_src_3",
+                  "contents": "img/raze_main_banner.png"
+                }
+              ]
+            }
+          ],
+
+          [
+            {
+              "_id": "footer_raze",
+              "template_id": "footer",
+              "width_percent": 100,
+              "stylesheet_id": "footer"
+            }
+          ]
+        ]
+      },
+
+      {
+        "_id": "bg_right_raze",
+        "template_id": "empty_html_template",
+        "width_percent": 15,
+        "stylesheet_id": "bg_dark_r"
+      }
+    ]
+
+  ]
+}
 
 #[TEMPLATE]
 {
@@ -128,6 +249,24 @@
 {
   "_id": "game_entry_template",
   "path": "template/game_entry.html"
+}
+
+#[TEMPLATE]
+{
+  "_id": "game_title_template",
+  "path": "template/game_title.html"
+}
+
+#[TEMPLATE]
+{
+  "_id": "game_description_template",
+  "path": "template/game_description.html"
+}
+
+#[TEMPLATE]
+{
+  "_id": "game_screenshots_template",
+  "path": "template/game_screenshots.html"
 }
 
 #[STYLESHEET]
@@ -170,4 +309,22 @@
 {
   "_id": "game_entry",
   "path": "styles/game_entry.css"
+}
+
+#[STYLESHEET]
+{
+  "_id": "game_title",
+  "path": "styles/game_title.css"
+}
+
+#[STYLESHEET]
+{
+  "_id": "game_description",
+  "path": "styles/game_description.css"
+}
+
+#[STYLESHEET]
+{
+  "_id": "game_screenshots",
+  "path": "styles/game_screenshots.css"
 }
