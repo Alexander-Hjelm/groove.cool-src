@@ -19,16 +19,6 @@
         "template_id": "head",
         "width_percent": 70,
         "stylesheet_id": "head",
-        "string_maps": [
-          {
-            "_id": "main_title",
-            "contents": "Alexander Hjelm"
-          },
-          {
-            "_id": "main_subtitle",
-            "contents": "Game Developer"
-          }
-        ],
 
         "blocks": [
           [
@@ -56,6 +46,75 @@
 
           [
             {
+              "_id": "game_entry_farble",
+              "template_id": "game_entry_template",
+              "width_percent": 100,
+              "stylesheet_id": "game_entry",
+              "string_maps": [
+                {
+                  "_id": "title",
+                  "contents": "Farble"
+                },
+                {
+                  "_id": "img_src",
+                  "contents": "img/raze_main_banner.png"
+                },
+                {
+                  "_id": "img_link",
+                  "contents": "game_farble.html"
+                }
+              ]
+            }
+          ],
+
+          [
+            {
+              "_id": "game_entry_deathtris",
+              "template_id": "game_entry_template",
+              "width_percent": 100,
+              "stylesheet_id": "game_entry",
+              "string_maps": [
+                {
+                  "_id": "title",
+                  "contents": "Deathtris"
+                },
+                {
+                  "_id": "img_src",
+                  "contents": "img/raze_main_banner.png"
+                },
+                {
+                  "_id": "img_link",
+                  "contents": "game_deathtris.html"
+                }
+              ]
+            }
+          ],
+
+          [
+            {
+              "_id": "game_entry_freakout",
+              "template_id": "game_entry_template",
+              "width_percent": 100,
+              "stylesheet_id": "game_entry",
+              "string_maps": [
+                {
+                  "_id": "title",
+                  "contents": "Freakout!"
+                },
+                {
+                  "_id": "img_src",
+                  "contents": "img/raze_main_banner.png"
+                },
+                {
+                  "_id": "img_link",
+                  "contents": "game_freakout.html"
+                }
+              ]
+            }
+          ],
+
+          [
+            {
               "_id": "game_entry_vector_command",
               "template_id": "game_entry_template",
               "width_percent": 100,
@@ -72,6 +131,52 @@
                 {
                   "_id": "img_link",
                   "contents": "game_vector_command.html"
+                }
+              ]
+            }
+          ],
+
+          [
+            {
+              "_id": "game_entry_knockoff",
+              "template_id": "game_entry_template",
+              "width_percent": 100,
+              "stylesheet_id": "game_entry",
+              "string_maps": [
+                {
+                  "_id": "title",
+                  "contents": "KnockOff"
+                },
+                {
+                  "_id": "img_src",
+                  "contents": "img/raze_main_banner.png"
+                },
+                {
+                  "_id": "img_link",
+                  "contents": "game_knockoff.html"
+                }
+              ]
+            }
+          ],
+
+          [
+            {
+              "_id": "game_entry_kingdom_of_knurk",
+              "template_id": "game_entry_template",
+              "width_percent": 100,
+              "stylesheet_id": "game_entry",
+              "string_maps": [
+                {
+                  "_id": "title",
+                  "contents": "Kingdom Of Knurk"
+                },
+                {
+                  "_id": "img_src",
+                  "contents": "img/raze_main_banner.png"
+                },
+                {
+                  "_id": "img_link",
+                  "contents": "game_kingdom_of_knurk.html"
                 }
               ]
             }
@@ -120,16 +225,6 @@
         "template_id": "head",
         "width_percent": 70,
         "stylesheet_id": "head",
-        "string_maps": [
-          {
-            "_id": "main_title",
-            "contents": "Alexander Hjelm"
-          },
-          {
-            "_id": "main_subtitle",
-            "contents": "Game Developer"
-          }
-        ],
 
         "blocks": [
           [
@@ -161,17 +256,17 @@
               "string_maps": [
                 {
                   "_id": "description",
-                  "contents": "This is a very game. This game is so game that once the game gods came down and gamed with such game that the game gods came down and gamed with such game that the game gods came down and gamed with such game that the game gods came down and gamed with such game that never gonna give up up. Never gonna let you down..."
+                  "contents": "The year is 20XX, and the city of Clearbrook has been overrun by gangs of fearsome thugs! RAZE is a 2D brawler game with satisfying combat and gruesome finishers. The enemies are fully aware of their surroundings and they will hunt you down, surround you, and do whatever it takes to stop you as you pummel your way to the city core. </br> Visit <a base target=_top href=http://raze.no>http://raze.no</a>."
                 },
 
                 {
                   "_id": "download_link",
-                  "contents": "https://www.youtube.com/watch?v=6n3pFFPSlW4"
+                  "contents": "Download here: <a base target=_top href=https://drive.google.com/drive/folders/1gSM6b8U5p-iKaSmRt77VyHgc68BDLDr6>DOWNLOAD LINK</a> </br> Play online here: <a base target=_top href=http://raze.no/game_build/index.html>PLAY LINK</a>"
                 },
 
                 {
                   "_id": "instructions_list",
-                  "contents": "<ul> <li>Press X to not die</li> <li>Press X to avoid dying</li> <li>Don't press X to die</li> <li>Don't press X to not not die</li> <li>Don't don't press X to not die</li></ul>"
+                  "contents": "This is a demo version. Fight your way through the city, defeating all the marked enemies to proceed. Finally, kill the boss to win. <ul> <li>Move with the arrow keys</li> <li>Jump with Space</li> <li>Attack with your two main weapons using the E and D keys</li> <li>Dodge attacks with the S key</li> <li>Bring up the inventory screen with the I key. Here you can swap out your main weapons.</li> </ul> <p> The game is also playable with a joypad. Additional information about the control bindings can be found <a base target=_top href=https://docs.google.com/document/d/1CFzylq3GK_ff4B5Zy0DH2PrUjJohq9rsCkOzcfZR63s/edit>here</a> </br> </br>"
                 }
 
               ]
@@ -220,6 +315,679 @@
 
   ]
 }
+
+#[BLOCK]
+{
+  "_id": "game_vector_command",
+  "template_id": "outer",
+  "width_percent": 100,
+  "stylesheet_id": "outer",
+
+  "blocks": [
+    [
+      {
+        "_id": "bg_left_vector_command",
+        "template_id": "empty_html_template",
+        "width_percent": 15,
+        "stylesheet_id": "bg_dark_l"
+      },
+
+      {
+        "_id": "head_vector_command",
+        "template_id": "head",
+        "width_percent": 70,
+        "stylesheet_id": "head",
+
+        "blocks": [
+          [
+            {
+              "_id": "title_vector_command",
+              "template_id": "game_title_template",
+              "width_percent": 100,
+              "stylesheet_id": "game_title",
+              "string_maps": [
+                {
+                  "_id": "title",
+                  "contents": "Vector Command"
+                },
+                {
+                  "_id": "img_src",
+                  "contents": "img/vector_command_main_banner.png"
+                }
+              ]
+
+            }
+          ],
+
+          [
+            {
+              "_id": "description_vector_command",
+              "template_id": "game_description_template",
+              "width_percent": 70,
+              "stylesheet_id": "game_description",
+              "string_maps": [
+                {
+                  "_id": "description",
+                  "contents": ""
+                },
+
+                {
+                  "_id": "download_link",
+                  "contents": "Download here: <a base target=_top href=https://drive.google.com/drive/folders/1gSM6b8U5p-iKaSmRt77VyHgc68BDLDr6>DOWNLOAD LINK</a> </br> Play online here: <a base target=_top href=http://raze.no/game_build/index.html>PLAY LINK</a>"
+                },
+
+                {
+                  "_id": "instructions_list",
+                  "contents": "This is a demo version. Fight your way through the city, defeating all the marked enemies to proceed. Finally, kill the boss to win. <ul> <li>Move with the arrow keys</li> <li>Jump with Space</li> <li>Attack with your two main weapons using the E and D keys</li> <li>Dodge attacks with the S key</li> <li>Bring up the inventory screen with the I key. Here you can swap out your main weapons.</li> </ul> <p> The game is also playable with a joypad. Additional information about the control bindings can be found <a base target=_top href=https://docs.google.com/document/d/1CFzylq3GK_ff4B5Zy0DH2PrUjJohq9rsCkOzcfZR63s/edit>here</a> </br> </br>"
+                }
+
+              ]
+            },
+
+            {
+              "_id": "screenshots_vector_command",
+              "template_id": "game_screenshots_template",
+              "width_percent": 30,
+              "stylesheet_id": "game_screenshots",
+              "string_maps": [
+                {
+                  "_id": "img_src_1",
+                  "contents": "img/vector_command_main_banner.png"
+                },
+                {
+                  "_id": "img_src_2",
+                  "contents": "img/vector_command_main_banner.png"
+                },
+                {
+                  "_id": "img_src_3",
+                  "contents": "img/vector_command_main_banner.png"
+                }
+              ]
+            }
+          ],
+
+          [
+            {
+              "_id": "footer_vector_command",
+              "template_id": "footer",
+              "width_percent": 100,
+              "stylesheet_id": "footer"
+            }
+          ]
+        ]
+      },
+
+      {
+        "_id": "bg_right_vector_command",
+        "template_id": "empty_html_template",
+        "width_percent": 15,
+        "stylesheet_id": "bg_dark_r"
+      }
+    ]
+
+  ]
+}
+
+#[BLOCK]
+{
+  "_id": "game_farble",
+  "template_id": "outer",
+  "width_percent": 100,
+  "stylesheet_id": "outer",
+
+  "blocks": [
+    [
+      {
+        "_id": "bg_left_farble",
+        "template_id": "empty_html_template",
+        "width_percent": 15,
+        "stylesheet_id": "bg_dark_l"
+      },
+
+      {
+        "_id": "head_farble",
+        "template_id": "head",
+        "width_percent": 70,
+        "stylesheet_id": "head",
+
+        "blocks": [
+          [
+            {
+              "_id": "title_farble",
+              "template_id": "game_title_template",
+              "width_percent": 100,
+              "stylesheet_id": "game_title",
+              "string_maps": [
+                {
+                  "_id": "title",
+                  "contents": "Farble"
+                },
+                {
+                  "_id": "img_src",
+                  "contents": "img/farble_main_banner.png"
+                }
+              ]
+
+            }
+          ],
+
+          [
+            {
+              "_id": "description_farble",
+              "template_id": "game_description_template",
+              "width_percent": 70,
+              "stylesheet_id": "game_description",
+              "string_maps": [
+                {
+                  "_id": "description",
+                  "contents": "The year is 20XX, and the city of Clearbrook has been overrun by gangs of fearsome thugs! RAZE is a 2D brawler game with satisfying combat and gruesome finishers. The enemies are fully aware of their surroundings and they will hunt you down, surround you, and do whatever it takes to stop you as you pummel your way to the city core. </br> Visit <a base target=_top href=http://raze.no>http://raze.no</a>."
+                },
+
+                {
+                  "_id": "download_link",
+                  "contents": "Download here: <a base target=_top href=https://drive.google.com/drive/folders/1gSM6b8U5p-iKaSmRt77VyHgc68BDLDr6>DOWNLOAD LINK</a> </br> Play online here: <a base target=_top href=http://raze.no/game_build/index.html>PLAY LINK</a>"
+                },
+
+                {
+                  "_id": "instructions_list",
+                  "contents": "This is a demo version. Fight your way through the city, defeating all the marked enemies to proceed. Finally, kill the boss to win. <ul> <li>Move with the arrow keys</li> <li>Jump with Space</li> <li>Attack with your two main weapons using the E and D keys</li> <li>Dodge attacks with the S key</li> <li>Bring up the inventory screen with the I key. Here you can swap out your main weapons.</li> </ul> <p> The game is also playable with a joypad. Additional information about the control bindings can be found <a base target=_top href=https://docs.google.com/document/d/1CFzylq3GK_ff4B5Zy0DH2PrUjJohq9rsCkOzcfZR63s/edit>here</a> </br> </br>"
+                }
+
+              ]
+            },
+
+            {
+              "_id": "screenshots_farble",
+              "template_id": "game_screenshots_template",
+              "width_percent": 30,
+              "stylesheet_id": "game_screenshots",
+              "string_maps": [
+                {
+                  "_id": "img_src_1",
+                  "contents": "img/farble_main_banner.png"
+                },
+                {
+                  "_id": "img_src_2",
+                  "contents": "img/farble_main_banner.png"
+                },
+                {
+                  "_id": "img_src_3",
+                  "contents": "img/farble_main_banner.png"
+                }
+              ]
+            }
+          ],
+
+          [
+            {
+              "_id": "footer_farble",
+              "template_id": "footer",
+              "width_percent": 100,
+              "stylesheet_id": "footer"
+            }
+          ]
+        ]
+      },
+
+      {
+        "_id": "bg_right_farble",
+        "template_id": "empty_html_template",
+        "width_percent": 15,
+        "stylesheet_id": "bg_dark_r"
+      }
+    ]
+
+  ]
+}
+
+#[BLOCK]
+{
+  "_id": "game_deathtris",
+  "template_id": "outer",
+  "width_percent": 100,
+  "stylesheet_id": "outer",
+
+  "blocks": [
+    [
+      {
+        "_id": "bg_left_deathtris",
+        "template_id": "empty_html_template",
+        "width_percent": 15,
+        "stylesheet_id": "bg_dark_l"
+      },
+
+      {
+        "_id": "head_deathtris",
+        "template_id": "head",
+        "width_percent": 70,
+        "stylesheet_id": "head",
+
+        "blocks": [
+          [
+            {
+              "_id": "title_deathtris",
+              "template_id": "game_title_template",
+              "width_percent": 100,
+              "stylesheet_id": "game_title",
+              "string_maps": [
+                {
+                  "_id": "title",
+                  "contents": "Deathtris"
+                },
+                {
+                  "_id": "img_src",
+                  "contents": "img/deathtris_main_banner.png"
+                }
+              ]
+
+            }
+          ],
+
+          [
+            {
+              "_id": "description_deathtris",
+              "template_id": "game_description_template",
+              "width_percent": 70,
+              "stylesheet_id": "game_description",
+              "string_maps": [
+                {
+                  "_id": "description",
+                  "contents": "The year is 20XX, and the city of Clearbrook has been overrun by gangs of fearsome thugs! RAZE is a 2D brawler game with satisfying combat and gruesome finishers. The enemies are fully aware of their surroundings and they will hunt you down, surround you, and do whatever it takes to stop you as you pummel your way to the city core. </br> Visit <a base target=_top href=http://raze.no>http://raze.no</a>."
+                },
+
+                {
+                  "_id": "download_link",
+                  "contents": "Download here: <a base target=_top href=https://drive.google.com/drive/folders/1gSM6b8U5p-iKaSmRt77VyHgc68BDLDr6>DOWNLOAD LINK</a> </br> Play online here: <a base target=_top href=http://raze.no/game_build/index.html>PLAY LINK</a>"
+                },
+
+                {
+                  "_id": "instructions_list",
+                  "contents": "This is a demo version. Fight your way through the city, defeating all the marked enemies to proceed. Finally, kill the boss to win. <ul> <li>Move with the arrow keys</li> <li>Jump with Space</li> <li>Attack with your two main weapons using the E and D keys</li> <li>Dodge attacks with the S key</li> <li>Bring up the inventory screen with the I key. Here you can swap out your main weapons.</li> </ul> <p> The game is also playable with a joypad. Additional information about the control bindings can be found <a base target=_top href=https://docs.google.com/document/d/1CFzylq3GK_ff4B5Zy0DH2PrUjJohq9rsCkOzcfZR63s/edit>here</a> </br> </br>"
+                }
+
+              ]
+            },
+
+            {
+              "_id": "screenshots_deathtris",
+              "template_id": "game_screenshots_template",
+              "width_percent": 30,
+              "stylesheet_id": "game_screenshots",
+              "string_maps": [
+                {
+                  "_id": "img_src_1",
+                  "contents": "img/deathtris_main_banner.png"
+                },
+                {
+                  "_id": "img_src_2",
+                  "contents": "img/deathtris_main_banner.png"
+                },
+                {
+                  "_id": "img_src_3",
+                  "contents": "img/deathtris_main_banner.png"
+                }
+              ]
+            }
+          ],
+
+          [
+            {
+              "_id": "footer_deathtris",
+              "template_id": "footer",
+              "width_percent": 100,
+              "stylesheet_id": "footer"
+            }
+          ]
+        ]
+      },
+
+      {
+        "_id": "bg_right_deathtris",
+        "template_id": "empty_html_template",
+        "width_percent": 15,
+        "stylesheet_id": "bg_dark_r"
+      }
+    ]
+
+  ]
+}
+
+#[BLOCK]
+{
+  "_id": "game_freakout",
+  "template_id": "outer",
+  "width_percent": 100,
+  "stylesheet_id": "outer",
+
+  "blocks": [
+    [
+      {
+        "_id": "bg_left_freakout",
+        "template_id": "empty_html_template",
+        "width_percent": 15,
+        "stylesheet_id": "bg_dark_l"
+      },
+
+      {
+        "_id": "head_freakout",
+        "template_id": "head",
+        "width_percent": 70,
+        "stylesheet_id": "head",
+
+        "blocks": [
+          [
+            {
+              "_id": "title_freakout",
+              "template_id": "game_title_template",
+              "width_percent": 100,
+              "stylesheet_id": "game_title",
+              "string_maps": [
+                {
+                  "_id": "title",
+                  "contents": "FreakOut!"
+                },
+                {
+                  "_id": "img_src",
+                  "contents": "img/freakout_main_banner.png"
+                }
+              ]
+
+            }
+          ],
+
+          [
+            {
+              "_id": "description_freakout",
+              "template_id": "game_description_template",
+              "width_percent": 70,
+              "stylesheet_id": "game_description",
+              "string_maps": [
+                {
+                  "_id": "description",
+                  "contents": "The year is 20XX, and the city of Clearbrook has been overrun by gangs of fearsome thugs! RAZE is a 2D brawler game with satisfying combat and gruesome finishers. The enemies are fully aware of their surroundings and they will hunt you down, surround you, and do whatever it takes to stop you as you pummel your way to the city core. </br> Visit <a base target=_top href=http://raze.no>http://raze.no</a>."
+                },
+
+                {
+                  "_id": "download_link",
+                  "contents": "Download here: <a base target=_top href=https://drive.google.com/drive/folders/1gSM6b8U5p-iKaSmRt77VyHgc68BDLDr6>DOWNLOAD LINK</a> </br> Play online here: <a base target=_top href=http://raze.no/game_build/index.html>PLAY LINK</a>"
+                },
+
+                {
+                  "_id": "instructions_list",
+                  "contents": "This is a demo version. Fight your way through the city, defeating all the marked enemies to proceed. Finally, kill the boss to win. <ul> <li>Move with the arrow keys</li> <li>Jump with Space</li> <li>Attack with your two main weapons using the E and D keys</li> <li>Dodge attacks with the S key</li> <li>Bring up the inventory screen with the I key. Here you can swap out your main weapons.</li> </ul> <p> The game is also playable with a joypad. Additional information about the control bindings can be found <a base target=_top href=https://docs.google.com/document/d/1CFzylq3GK_ff4B5Zy0DH2PrUjJohq9rsCkOzcfZR63s/edit>here</a> </br> </br>"
+                }
+
+              ]
+            },
+
+            {
+              "_id": "screenshots_freakout",
+              "template_id": "game_screenshots_template",
+              "width_percent": 30,
+              "stylesheet_id": "game_screenshots",
+              "string_maps": [
+                {
+                  "_id": "img_src_1",
+                  "contents": "img/freakout_main_banner.png"
+                },
+                {
+                  "_id": "img_src_2",
+                  "contents": "img/freakout_main_banner.png"
+                },
+                {
+                  "_id": "img_src_3",
+                  "contents": "img/freakout_main_banner.png"
+                }
+              ]
+            }
+          ],
+
+          [
+            {
+              "_id": "footer_freakout",
+              "template_id": "footer",
+              "width_percent": 100,
+              "stylesheet_id": "footer"
+            }
+          ]
+        ]
+      },
+
+      {
+        "_id": "bg_right_freakout",
+        "template_id": "empty_html_template",
+        "width_percent": 15,
+        "stylesheet_id": "bg_dark_r"
+      }
+    ]
+
+  ]
+}
+
+#[BLOCK]
+{
+  "_id": "game_knockoff",
+  "template_id": "outer",
+  "width_percent": 100,
+  "stylesheet_id": "outer",
+
+  "blocks": [
+    [
+      {
+        "_id": "bg_left_knockoff",
+        "template_id": "empty_html_template",
+        "width_percent": 15,
+        "stylesheet_id": "bg_dark_l"
+      },
+
+      {
+        "_id": "head_knockoff",
+        "template_id": "head",
+        "width_percent": 70,
+        "stylesheet_id": "head",
+
+        "blocks": [
+          [
+            {
+              "_id": "title_knockoff",
+              "template_id": "game_title_template",
+              "width_percent": 100,
+              "stylesheet_id": "game_title",
+              "string_maps": [
+                {
+                  "_id": "title",
+                  "contents": "KnockOff"
+                },
+                {
+                  "_id": "img_src",
+                  "contents": "img/knockoff_main_banner.png"
+                }
+              ]
+
+            }
+          ],
+
+          [
+            {
+              "_id": "description_knockoff",
+              "template_id": "game_description_template",
+              "width_percent": 70,
+              "stylesheet_id": "game_description",
+              "string_maps": [
+                {
+                  "_id": "description",
+                  "contents": "The year is 20XX, and the city of Clearbrook has been overrun by gangs of fearsome thugs! RAZE is a 2D brawler game with satisfying combat and gruesome finishers. The enemies are fully aware of their surroundings and they will hunt you down, surround you, and do whatever it takes to stop you as you pummel your way to the city core. </br> Visit <a base target=_top href=http://raze.no>http://raze.no</a>."
+                },
+
+                {
+                  "_id": "download_link",
+                  "contents": "Download here: <a base target=_top href=https://drive.google.com/drive/folders/1gSM6b8U5p-iKaSmRt77VyHgc68BDLDr6>DOWNLOAD LINK</a> </br> Play online here: <a base target=_top href=http://raze.no/game_build/index.html>PLAY LINK</a>"
+                },
+
+                {
+                  "_id": "instructions_list",
+                  "contents": "This is a demo version. Fight your way through the city, defeating all the marked enemies to proceed. Finally, kill the boss to win. <ul> <li>Move with the arrow keys</li> <li>Jump with Space</li> <li>Attack with your two main weapons using the E and D keys</li> <li>Dodge attacks with the S key</li> <li>Bring up the inventory screen with the I key. Here you can swap out your main weapons.</li> </ul> <p> The game is also playable with a joypad. Additional information about the control bindings can be found <a base target=_top href=https://docs.google.com/document/d/1CFzylq3GK_ff4B5Zy0DH2PrUjJohq9rsCkOzcfZR63s/edit>here</a> </br> </br>"
+                }
+
+              ]
+            },
+
+            {
+              "_id": "screenshots_knockoff",
+              "template_id": "game_screenshots_template",
+              "width_percent": 30,
+              "stylesheet_id": "game_screenshots",
+              "string_maps": [
+                {
+                  "_id": "img_src_1",
+                  "contents": "img/knockoff_main_banner.png"
+                },
+                {
+                  "_id": "img_src_2",
+                  "contents": "img/knockoff_main_banner.png"
+                },
+                {
+                  "_id": "img_src_3",
+                  "contents": "img/knockoff_main_banner.png"
+                }
+              ]
+            }
+          ],
+
+          [
+            {
+              "_id": "footer_knockoff",
+              "template_id": "footer",
+              "width_percent": 100,
+              "stylesheet_id": "footer"
+            }
+          ]
+        ]
+      },
+
+      {
+        "_id": "bg_right_knockoff",
+        "template_id": "empty_html_template",
+        "width_percent": 15,
+        "stylesheet_id": "bg_dark_r"
+      }
+    ]
+
+  ]
+}
+
+#[BLOCK]
+{
+  "_id": "game_kingdom_of_knurk",
+  "template_id": "outer",
+  "width_percent": 100,
+  "stylesheet_id": "outer",
+
+  "blocks": [
+    [
+      {
+        "_id": "bg_left_kingdom_of_knurk",
+        "template_id": "empty_html_template",
+        "width_percent": 15,
+        "stylesheet_id": "bg_dark_l"
+      },
+
+      {
+        "_id": "head_kingdom_of_knurk",
+        "template_id": "head",
+        "width_percent": 70,
+        "stylesheet_id": "head",
+
+        "blocks": [
+          [
+            {
+              "_id": "title_kingdom_of_knurk",
+              "template_id": "game_title_template",
+              "width_percent": 100,
+              "stylesheet_id": "game_title",
+              "string_maps": [
+                {
+                  "_id": "title",
+                  "contents": "Kingdom of Knurk"
+                },
+                {
+                  "_id": "img_src",
+                  "contents": "img/kingdom_of_knurk_main_banner.png"
+                }
+              ]
+
+            }
+          ],
+
+          [
+            {
+              "_id": "description_kingdom_of_knurk",
+              "template_id": "game_description_template",
+              "width_percent": 70,
+              "stylesheet_id": "game_description",
+              "string_maps": [
+                {
+                  "_id": "description",
+                  "contents": "The year is 20XX, and the city of Clearbrook has been overrun by gangs of fearsome thugs! RAZE is a 2D brawler game with satisfying combat and gruesome finishers. The enemies are fully aware of their surroundings and they will hunt you down, surround you, and do whatever it takes to stop you as you pummel your way to the city core. </br> Visit <a base target=_top href=http://raze.no>http://raze.no</a>."
+                },
+
+                {
+                  "_id": "download_link",
+                  "contents": "Download here: <a base target=_top href=https://drive.google.com/drive/folders/1gSM6b8U5p-iKaSmRt77VyHgc68BDLDr6>DOWNLOAD LINK</a> </br> Play online here: <a base target=_top href=http://raze.no/game_build/index.html>PLAY LINK</a>"
+                },
+
+                {
+                  "_id": "instructions_list",
+                  "contents": "This is a demo version. Fight your way through the city, defeating all the marked enemies to proceed. Finally, kill the boss to win. <ul> <li>Move with the arrow keys</li> <li>Jump with Space</li> <li>Attack with your two main weapons using the E and D keys</li> <li>Dodge attacks with the S key</li> <li>Bring up the inventory screen with the I key. Here you can swap out your main weapons.</li> </ul> <p> The game is also playable with a joypad. Additional information about the control bindings can be found <a base target=_top href=https://docs.google.com/document/d/1CFzylq3GK_ff4B5Zy0DH2PrUjJohq9rsCkOzcfZR63s/edit>here</a> </br> </br>"
+                }
+
+              ]
+            },
+
+            {
+              "_id": "screenshots_kingdom_of_knurk",
+              "template_id": "game_screenshots_template",
+              "width_percent": 30,
+              "stylesheet_id": "game_screenshots",
+              "string_maps": [
+                {
+                  "_id": "img_src_1",
+                  "contents": "img/kingdom_of_knurk_main_banner.png"
+                },
+                {
+                  "_id": "img_src_2",
+                  "contents": "img/kingdom_of_knurk_main_banner.png"
+                },
+                {
+                  "_id": "img_src_3",
+                  "contents": "img/kingdom_of_knurk_main_banner.png"
+                }
+              ]
+            }
+          ],
+
+          [
+            {
+              "_id": "footer_kingdom_of_knurk",
+              "template_id": "footer",
+              "width_percent": 100,
+              "stylesheet_id": "footer"
+            }
+          ]
+        ]
+      },
+
+      {
+        "_id": "bg_right_kingdom_of_knurk",
+        "template_id": "empty_html_template",
+        "width_percent": 15,
+        "stylesheet_id": "bg_dark_r"
+      }
+    ]
+
+  ]
+}
+
 
 #[TEMPLATE]
 {
