@@ -161,6 +161,75 @@
 
           [
             {
+              "_id": "game_entry_missile_command_vr",
+              "template_id": "game_entry_template",
+              "width_percent": 100,
+              "stylesheet_id": "game_entry",
+              "string_maps": [
+                {
+                  "_id": "title",
+                  "contents": "Missile Command VR"
+                },
+                {
+                  "_id": "img_src",
+                  "contents": "img/raze_main_banner.png"
+                },
+                {
+                  "_id": "img_link",
+                  "contents": "game_missile_command_vr.html"
+                }
+              ]
+            }
+          ],
+
+          [
+            {
+              "_id": "game_entry_rocket_cars",
+              "template_id": "game_entry_template",
+              "width_percent": 100,
+              "stylesheet_id": "game_entry",
+              "string_maps": [
+                {
+                  "_id": "title",
+                  "contents": "Rocket Cars"
+                },
+                {
+                  "_id": "img_src",
+                  "contents": "img/raze_main_banner.png"
+                },
+                {
+                  "_id": "img_link",
+                  "contents": "game_rocket_cars.html"
+                }
+              ]
+            }
+          ],
+
+          [
+            {
+              "_id": "game_entry_moving_on",
+              "template_id": "game_entry_template",
+              "width_percent": 100,
+              "stylesheet_id": "game_entry",
+              "string_maps": [
+                {
+                  "_id": "title",
+                  "contents": "Moving On"
+                },
+                {
+                  "_id": "img_src",
+                  "contents": "img/raze_main_banner.png"
+                },
+                {
+                  "_id": "img_link",
+                  "contents": "game_moving_on.html"
+                }
+              ]
+            }
+          ],
+
+          [
+            {
               "_id": "game_entry_kingdom_of_knurk",
               "template_id": "game_entry_template",
               "width_percent": 100,
@@ -256,12 +325,12 @@
               "string_maps": [
                 {
                   "_id": "description",
-                  "contents": "The year is 20XX, and the city of Clearbrook has been overrun by gangs of fearsome thugs! RAZE is a 2D brawler game with satisfying combat and gruesome finishers. The enemies are fully aware of their surroundings and they will hunt you down, surround you, and do whatever it takes to stop you as you pummel your way to the city core. </br> Visit <a base target=_top href=http://raze.no>http://raze.no</a>."
+                  "contents": "<p>The year is 20XX, and the city of Clearbrook has been overrun by gangs of fearsome thugs! <font color=red>RAZE</font> is a 2D brawler game with satisfying combat and gruesome finishers. The enemies are fully aware of their surroundings and they will hunt you down, surround you, and do whatever it takes to stop you as you pummel your way to the city core.</p><p><font color=red>RAZE</font> was concieved by me during my stay in Norway in February 2018. It is currently in development by the swedish-norwegian company <font color=red>Studio RAZE</font>, where I am the project owner and lead artist. The team is also: <ul><li><font color=red>Martin Malmei Aarsland</font> - Music, sound effects, design and additional development</li><li><font color=red>Hua Dong</font> - Project organization, lead programmer</li></ul><p>Visit <a base target=_top href=http://raze.no>http://raze.no</a> for more.</p>"
                 },
 
                 {
                   "_id": "download_link",
-                  "contents": "Download here: <a base target=_top href=https://drive.google.com/drive/folders/1gSM6b8U5p-iKaSmRt77VyHgc68BDLDr6>DOWNLOAD LINK</a> </br> Play online here: <a base target=_top href=http://raze.no/game_build/index.html>PLAY LINK</a>"
+                  "contents": "<p>Play or download the latest demo:</p><p>Download here: <a base target=_top href=https://drive.google.com/drive/folders/1gSM6b8U5p-iKaSmRt77VyHgc68BDLDr6>DOWNLOAD LINK</a></p><p>Play online here: <a base target=_top href=http://raze.no/game_build/index.html>PLAY LINK</a></p>"
                 },
 
                 {
@@ -368,17 +437,17 @@
               "string_maps": [
                 {
                   "_id": "description",
-                  "contents": ""
+                  "contents": "<p>Prepare for war...</p><p>The world's military agenicies have constructed a sophisticated global defense matrix, consisting of the 6 most intelligent artificial agents: <font color=lightgreen>UBX Talon</font>, <font color=lightblue>Pinnacle</font>, <font color=yellow>Maeve</font>, <font color=hotpink>Yoshimura 12</font>, <font color=red>Mod_Myriad</font> and <font color=cyan>Imperion</font>. Today, the network was compromised by a fanatic terror organization and the AI are engaging the civilians they are meant to protect. Your country's most respected generals have called you to a top-secret hearing, as you are the only one who can take control of earth's remaining forces and neutralize the AI threat before it wipes out your entire species.</p><p><font color=lightgreen>Vector Command</font> is a fast-paced 2D realtime strategy game that has a node-based nature. It was inspired by online Cell RTS games such as <font color=lightgreen>Tentacle Wars</font> and <font color=lightgreen>Nanowars</font>, and it was my first medium-scale personal game project back in 2015. It was made using <font color=lightgreen>Unity</font>, and had an initially unstable release at <font color=lightgreen>Kongregate</font>. However it is no longer available since Kongregate does not support the legacy web player.</p><p>The game's AI is very rudimentary, and can be beaten with a few simple exploits. There are not many levels and as such I consider Vector Command more of a conceptual proof rather than a full game with progression. I have learned many lessons since back then, but I will likely never update this project again.</p><p>The source project is available for free here: <a base target=_top href=https://github.com/Alexander-Hjelm/Vector-Command>GITHUB</a></p>"
                 },
 
                 {
                   "_id": "download_link",
-                  "contents": "Download here: <a base target=_top href=https://drive.google.com/drive/folders/1gSM6b8U5p-iKaSmRt77VyHgc68BDLDr6>DOWNLOAD LINK</a> </br> Play online here: <a base target=_top href=http://raze.no/game_build/index.html>PLAY LINK</a>"
+                  "contents": "Download here: <a base target=_top href=AAAAA>DOWNLOAD LINK</a>"
                 },
 
                 {
                   "_id": "instructions_list",
-                  "contents": "This is a demo version. Fight your way through the city, defeating all the marked enemies to proceed. Finally, kill the boss to win. <ul> <li>Move with the arrow keys</li> <li>Jump with Space</li> <li>Attack with your two main weapons using the E and D keys</li> <li>Dodge attacks with the S key</li> <li>Bring up the inventory screen with the I key. Here you can swap out your main weapons.</li> </ul> <p> The game is also playable with a joypad. Additional information about the control bindings can be found <a base target=_top href=https://docs.google.com/document/d/1CFzylq3GK_ff4B5Zy0DH2PrUjJohq9rsCkOzcfZR63s/edit>here</a> </br> </br>"
+                  "contents": "Full version:<p>You start out with a <font color=lightgreen>Base</font> of your chosen color. This base will produce <font color=lightgreen>Ships</font> up to a certain capacity. These ships can attack other bases to capture them and increase your ship production. White bases are neutral and do not regenerate ships. The goal is to destroy your <font color=lightgreen>Enemies</font> by capturing all of their bases.</p><ul> <li>Order your ships to attack via click-and-drag. Click your base and drag the pointer to an opponent's base to send your ships there. You can drag over several of your bases to attack from multiple bases at a time.</li> <li>Hold the middle mouse button and drag to pan the screen.</li></br> </br>"
                 }
 
               ]
@@ -480,17 +549,17 @@
               "string_maps": [
                 {
                   "_id": "description",
-                  "contents": "The year is 20XX, and the city of Clearbrook has been overrun by gangs of fearsome thugs! RAZE is a 2D brawler game with satisfying combat and gruesome finishers. The enemies are fully aware of their surroundings and they will hunt you down, surround you, and do whatever it takes to stop you as you pummel your way to the city core. </br> Visit <a base target=_top href=http://raze.no>http://raze.no</a>."
+                  "contents": "<p>The <font color=violet>Farble</font> gazed out onto the blocky contruct, floating atop the sky. It was eerie, an Escerian stairway into the clouds. It was afraid. Perilous it would be, but it knew it had to go...</p><p>And it would have to go far...</p><p>On the longest journey of its lifetime...</p><p><font color=violet>Farble</font> is a shamless ripoff of the old Atari arcade game <font color=violet>Marble Madness</font>, with the goal of steering your <font color=violet>Farble (TM)</font> (a spherical, metallic object) into the goal of each level. The game was an excuse for me to dive into <font color=violet>Unreal Engine 4</font> and the <font color=violet>Blueprints</font> scripting language. Later on I came to work with UE4 in a professional setting, then using C++ for scripting, and I admit that I hate it, since it enforces its code style on you for the benefit of using a library of ready-made functions that are good for making standard game features, but not very good for innovating and experimenting. Regardless, here is my first UE4 project for the world to see.</p>"
                 },
 
                 {
                   "_id": "download_link",
-                  "contents": "Download here: <a base target=_top href=https://drive.google.com/drive/folders/1gSM6b8U5p-iKaSmRt77VyHgc68BDLDr6>DOWNLOAD LINK</a> </br> Play online here: <a base target=_top href=http://raze.no/game_build/index.html>PLAY LINK</a>"
+                  "contents": "Download here: <a base target=_top href=AAAAA>DOWNLOAD LINK</a>"
                 },
 
                 {
                   "_id": "instructions_list",
-                  "contents": "This is a demo version. Fight your way through the city, defeating all the marked enemies to proceed. Finally, kill the boss to win. <ul> <li>Move with the arrow keys</li> <li>Jump with Space</li> <li>Attack with your two main weapons using the E and D keys</li> <li>Dodge attacks with the S key</li> <li>Bring up the inventory screen with the I key. Here you can swap out your main weapons.</li> </ul> <p> The game is also playable with a joypad. Additional information about the control bindings can be found <a base target=_top href=https://docs.google.com/document/d/1CFzylq3GK_ff4B5Zy0DH2PrUjJohq9rsCkOzcfZR63s/edit>here</a> </br> </br>"
+                  "contents": "Roll the farble to the goal of each level, and collect as many coins as you can. Do not fall off the level or you will have to restart. <ul> <li>Move with the arrow keys</li> <li>Jump with Space</li> </ul> </br>"
                 }
 
               ]
@@ -592,17 +661,17 @@
               "string_maps": [
                 {
                   "_id": "description",
-                  "contents": "The year is 20XX, and the city of Clearbrook has been overrun by gangs of fearsome thugs! RAZE is a 2D brawler game with satisfying combat and gruesome finishers. The enemies are fully aware of their surroundings and they will hunt you down, surround you, and do whatever it takes to stop you as you pummel your way to the city core. </br> Visit <a base target=_top href=http://raze.no>http://raze.no</a>."
+                  "contents": "Because everything sounds better as a DEATH-portmanteau! <font color=lightgreen>Deathtris</font> is literally just tetris but with <font color=lightgreen>Death</font> in the name. It was a small project I made in <font color=lightgreen>C++</font> with the intention of learning <font color=lightgreen>SFML</font> (two years later and C++/SFML is still my preferred way to make games)."
                 },
 
                 {
                   "_id": "download_link",
-                  "contents": "Download here: <a base target=_top href=https://drive.google.com/drive/folders/1gSM6b8U5p-iKaSmRt77VyHgc68BDLDr6>DOWNLOAD LINK</a> </br> Play online here: <a base target=_top href=http://raze.no/game_build/index.html>PLAY LINK</a>"
+                  "contents": "Download here: <a base target=_top href=AAAAA>DOWNLOAD LINK</a>"
                 },
 
                 {
                   "_id": "instructions_list",
-                  "contents": "This is a demo version. Fight your way through the city, defeating all the marked enemies to proceed. Finally, kill the boss to win. <ul> <li>Move with the arrow keys</li> <li>Jump with Space</li> <li>Attack with your two main weapons using the E and D keys</li> <li>Dodge attacks with the S key</li> <li>Bring up the inventory screen with the I key. Here you can swap out your main weapons.</li> </ul> <p> The game is also playable with a joypad. Additional information about the control bindings can be found <a base target=_top href=https://docs.google.com/document/d/1CFzylq3GK_ff4B5Zy0DH2PrUjJohq9rsCkOzcfZR63s/edit>here</a> </br> </br>"
+                  "contents": "Place blocks at the bottom of the field by lining them up as they fall, and form complete rows. <ul> <li>Move the block with the left/right arrow keys</li> <li>Rotate the block with the up arrow key.</li> <li>Instantly drop the block with the down arrow key</li></br></br>"
                 }
 
               ]
@@ -704,17 +773,17 @@
               "string_maps": [
                 {
                   "_id": "description",
-                  "contents": "The year is 20XX, and the city of Clearbrook has been overrun by gangs of fearsome thugs! RAZE is a 2D brawler game with satisfying combat and gruesome finishers. The enemies are fully aware of their surroundings and they will hunt you down, surround you, and do whatever it takes to stop you as you pummel your way to the city core. </br> Visit <a base target=_top href=http://raze.no>http://raze.no</a>."
+                  "contents": "<p><font color=yellow>FreakOut</font> is an <font color=yellow>Atari Breakout</font> clone made in the <font color=yellow>LOVE</font> engine. I learned the LOVE framework and the <font color=yellow>Lua</font> scripting language quickly, but the engine is not one of my favorite gamedev tools.</p><p>The source project is available for free here: <a base target=_top href=https://github.com/Alexander-Hjelm/love-breakout>GITHUB</a></p>"
                 },
 
                 {
                   "_id": "download_link",
-                  "contents": "Download here: <a base target=_top href=https://drive.google.com/drive/folders/1gSM6b8U5p-iKaSmRt77VyHgc68BDLDr6>DOWNLOAD LINK</a> </br> Play online here: <a base target=_top href=http://raze.no/game_build/index.html>PLAY LINK</a>"
+                  "contents": "Download here: <a base target=_top href=AAAAA>DOWNLOAD LINK</a>"
                 },
 
                 {
                   "_id": "instructions_list",
-                  "contents": "This is a demo version. Fight your way through the city, defeating all the marked enemies to proceed. Finally, kill the boss to win. <ul> <li>Move with the arrow keys</li> <li>Jump with Space</li> <li>Attack with your two main weapons using the E and D keys</li> <li>Dodge attacks with the S key</li> <li>Bring up the inventory screen with the I key. Here you can swap out your main weapons.</li> </ul> <p> The game is also playable with a joypad. Additional information about the control bindings can be found <a base target=_top href=https://docs.google.com/document/d/1CFzylq3GK_ff4B5Zy0DH2PrUjJohq9rsCkOzcfZR63s/edit>here</a> </br> </br>"
+                  "contents": "<p>Move the paddle horizontally by dragging the mouse side to side. Use the ball to destroy all the blocks in the level. The longer you keep the ball in the air, the bigger the combo multiplier you get.</p>"
                 }
 
               ]
@@ -816,17 +885,17 @@
               "string_maps": [
                 {
                   "_id": "description",
-                  "contents": "The year is 20XX, and the city of Clearbrook has been overrun by gangs of fearsome thugs! RAZE is a 2D brawler game with satisfying combat and gruesome finishers. The enemies are fully aware of their surroundings and they will hunt you down, surround you, and do whatever it takes to stop you as you pummel your way to the city core. </br> Visit <a base target=_top href=http://raze.no>http://raze.no</a>."
+                  "contents": "<p>Sit down with your friends and prepare for an epic battle. Play as your favorite world leader and blast your enemies off the last piece of rock that is left after the nuclear war!</p><p><font color=lightblue>Knock-off</font> is a multiplayer shooter that borrows the knockback mechanic from <font color=lightblue>Super Smash Brothers</font>: the more damaged you are, the further you fly. It was made in <font color=lightblue>Unity</font> by our project group in a game design project course at KTH Royal Institute of Technology. I was the lead developer and much of my time went to teaching the Unity engine to my classmates.</p><p>My team members were:</p><ul><li><font color=lightblue>Puspita Anindita</font> - 3D artist, concept artist </li><li><font color=lightblue>Per N&atilde;slund</font> - Developer, Project manager, Designer, Trailer developer</li><li><font color=lightblue>Patryk Przybysz</font> - Developer, Business manager</li></ul><p>Old landing page: <a base target=_top href=https://knockoffthegame.wordpress.com/>https://knockoffthegame.wordpress.com/</a>.</p><p>My old development diary: <a base target=_top href=https://knockoffdev.wordpress.com/>https://knockoffdev.wordpress.com/</a>.</p>"
                 },
 
                 {
                   "_id": "download_link",
-                  "contents": "Download here: <a base target=_top href=https://drive.google.com/drive/folders/1gSM6b8U5p-iKaSmRt77VyHgc68BDLDr6>DOWNLOAD LINK</a> </br> Play online here: <a base target=_top href=http://raze.no/game_build/index.html>PLAY LINK</a>"
+                  "contents": "Download here: <a base target=_top href=AAAAA>DOWNLOAD LINK</a>"
                 },
 
                 {
                   "_id": "instructions_list",
-                  "contents": "This is a demo version. Fight your way through the city, defeating all the marked enemies to proceed. Finally, kill the boss to win. <ul> <li>Move with the arrow keys</li> <li>Jump with Space</li> <li>Attack with your two main weapons using the E and D keys</li> <li>Dodge attacks with the S key</li> <li>Bring up the inventory screen with the I key. Here you can swap out your main weapons.</li> </ul> <p> The game is also playable with a joypad. Additional information about the control bindings can be found <a base target=_top href=https://docs.google.com/document/d/1CFzylq3GK_ff4B5Zy0DH2PrUjJohq9rsCkOzcfZR63s/edit>here</a> </br> </br>"
+                  "contents": "The game is played in multiplayer split-screen mode, and requires 4 joypads. Use your rocket launcher to knock the other players off the platform. Each successive hit means they will fly farther away. Each player has 3 lives.<ul><li>Move/look around with the analog sticks</li><li>Jump with the A button</li><li>Shoot with the Right Trigger</li><li>Dash with the B button. This is useful to get back to the platform.</li></ul></br></br>"
                 }
 
               ]
@@ -867,6 +936,342 @@
 
       {
         "_id": "bg_right_knockoff",
+        "template_id": "empty_html_template",
+        "width_percent": 15,
+        "stylesheet_id": "bg_dark_r"
+      }
+    ]
+
+  ]
+}
+
+#[BLOCK]
+{
+  "_id": "game_missile_command_vr",
+  "template_id": "outer",
+  "width_percent": 100,
+  "stylesheet_id": "outer",
+
+  "blocks": [
+    [
+      {
+        "_id": "bg_left_missile_command_vr",
+        "template_id": "empty_html_template",
+        "width_percent": 15,
+        "stylesheet_id": "bg_dark_l"
+      },
+
+      {
+        "_id": "head_missile_command_vr",
+        "template_id": "head",
+        "width_percent": 70,
+        "stylesheet_id": "head",
+
+        "blocks": [
+          [
+            {
+              "_id": "title_missile_command_vr",
+              "template_id": "game_title_template",
+              "width_percent": 100,
+              "stylesheet_id": "game_title",
+              "string_maps": [
+                {
+                  "_id": "title",
+                  "contents": "Missile Command VR"
+                },
+                {
+                  "_id": "img_src",
+                  "contents": "img/missile_command_vr_main_banner.png"
+                }
+              ]
+
+            }
+          ],
+
+          [
+            {
+              "_id": "description_missile_command_vr",
+              "template_id": "game_description_template",
+              "width_percent": 70,
+              "stylesheet_id": "game_description",
+              "string_maps": [
+                {
+                  "_id": "description",
+                  "contents": "<p><font color=hotpink>Everyone dies</font></p><p><font color=hotpink>Missile Command VR</font> was our entry to the Forsberg Gamejam 2017 in Stockholm. It is a VR version of the classic arcade game <font color=hotpink>Missile Command</font>, where you must defend your cities from incoming nuclear warheads. It features retro-style graphics that are reminiscent of the Cold War era. I was the 3D artist and visual designer on the team, and I also did some additional Unity development.</p><p>Joining me on my jam team was:</p><ul><li><font color=hotpink>Fredrik Sj&ouml;bom</font> - Programming, VR</li><li><font color=hotpink>Hua Dong</font> - Programming</li><li><font color=hotpink>Erik Engstr&ouml;m</font> - Sound effects, additional programming</li></ul><p>More info about the Forsberg Gamejam can be found here: <a base target=_top href=http://www.forsbergsskola.se/en/utbildningar/forsbergs-game-jam-weekend/>http://www.forsbergsskola.se/en/utbildningar/forsbergs-game-jam-weekend/</a></p>"
+                },
+
+                {
+                  "_id": "download_link",
+                  "contents": "Download here: <a base target=_top href=AAAAA>DOWNLOAD LINK</a><p>(Requires a VR headset and a VR ready PC to run. Only tested on the HTC Vive)</p>"
+                },
+
+                {
+                  "_id": "instructions_list",
+                  "contents": "Your goal is to protect the cities on the ground from incoming rockets from above. Use your launch controller (Left hand, back trigger) to launch intercepting rockets, and use your detonator screen (Right hand, back trigger) to detonate your own rockets. Simply hold your detonator screen over the rocket you wish to detonate and press the trigger.</br></br></br></br>"
+                }
+
+              ]
+            },
+
+            {
+              "_id": "screenshots_missile_command_vr",
+              "template_id": "game_screenshots_template",
+              "width_percent": 30,
+              "stylesheet_id": "game_screenshots",
+              "string_maps": [
+                {
+                  "_id": "img_src_1",
+                  "contents": "img/missile_command_vr_main_banner.png"
+                },
+                {
+                  "_id": "img_src_2",
+                  "contents": "img/missile_command_vr_main_banner.png"
+                },
+                {
+                  "_id": "img_src_3",
+                  "contents": "img/missile_command_vr_main_banner.png"
+                }
+              ]
+            }
+          ],
+
+          [
+            {
+              "_id": "footer_missile_command_vr",
+              "template_id": "footer",
+              "width_percent": 100,
+              "stylesheet_id": "footer"
+            }
+          ]
+        ]
+      },
+
+      {
+        "_id": "bg_right_missile_command_vr",
+        "template_id": "empty_html_template",
+        "width_percent": 15,
+        "stylesheet_id": "bg_dark_r"
+      }
+    ]
+
+  ]
+}
+
+#[BLOCK]
+{
+  "_id": "game_moving_on",
+  "template_id": "outer",
+  "width_percent": 100,
+  "stylesheet_id": "outer",
+
+  "blocks": [
+    [
+      {
+        "_id": "bg_left_moving_on",
+        "template_id": "empty_html_template",
+        "width_percent": 15,
+        "stylesheet_id": "bg_dark_l"
+      },
+
+      {
+        "_id": "head_moving_on",
+        "template_id": "head",
+        "width_percent": 70,
+        "stylesheet_id": "head",
+
+        "blocks": [
+          [
+            {
+              "_id": "title_moving_on",
+              "template_id": "game_title_template",
+              "width_percent": 100,
+              "stylesheet_id": "game_title",
+              "string_maps": [
+                {
+                  "_id": "title",
+                  "contents": "Moving On"
+                },
+                {
+                  "_id": "img_src",
+                  "contents": "img/moving_on_main_banner.png"
+                }
+              ]
+
+            }
+          ],
+
+          [
+            {
+              "_id": "description_moving_on",
+              "template_id": "game_description_template",
+              "width_percent": 70,
+              "stylesheet_id": "game_description",
+              "string_maps": [
+                {
+                  "_id": "description",
+                  "contents": "<p><font color=darkgray>Moving On</font> was our entry to the Global Game Jam 2018 in Trondheim. It is a local mulitplayer game where you explore a haunted mansion together with a friend from the spirit world. The only problem is: <font color=darkgray>the traps are invisible</font>. But as you play you become aware that you are actually seeing the elements that hurt your friend, and vice versa. I did the level design and I scripted the behavior of most of the in-game assets.</p><p>Joining me on my jam team was:</p><ul><li><font color=darkgray>Fredrik Christoffer Chrislock</font> - Programming</li><li><font color=darkgray>Eirik Fosse</font> - Programming, multiplayer</li><li><font color=darkgray>Hans-A Kleven</font> - Character and environment art</li></ul><p>More info on the game's GGJ page: <a base target=_top href=https://globalgamejam.org/2018/games/moving>https://globalgamejam.org/2018/games/moving</a></p>."
+                },
+
+                {
+                  "_id": "download_link",
+                  "contents": "Download here: <a base target=_top href=https://ggj.s3.amazonaws.com/games/2018/01/104097/exec/kXW1Y/release.zip>DOWNLOAD LINK</a> (Opens a direct download) <p>The game requires a PC with 2 connected monitors to play. If you have 2 monitors, the game will automatically detect this, and no further configuration is needed.</p>"
+                },
+
+                {
+                  "_id": "instructions_list",
+                  "contents": "The game is played by two players, each requiring their own gamepad.<ul><li>Move your character with the analog stick and use items with the A button.</li><li>Pay attention to where the other player is going. Only you can see the traps that kill them, and vice versa. The two of you must communicate to reach the end.</li></ul></br></br>"
+                }
+
+              ]
+            },
+
+            {
+              "_id": "screenshots_moving_on",
+              "template_id": "game_screenshots_template",
+              "width_percent": 30,
+              "stylesheet_id": "game_screenshots",
+              "string_maps": [
+                {
+                  "_id": "img_src_1",
+                  "contents": "img/moving_on_main_banner.png"
+                },
+                {
+                  "_id": "img_src_2",
+                  "contents": "img/moving_on_main_banner.png"
+                },
+                {
+                  "_id": "img_src_3",
+                  "contents": "img/moving_on_main_banner.png"
+                }
+              ]
+            }
+          ],
+
+          [
+            {
+              "_id": "footer_moving_on",
+              "template_id": "footer",
+              "width_percent": 100,
+              "stylesheet_id": "footer"
+            }
+          ]
+        ]
+      },
+
+      {
+        "_id": "bg_right_moving_on",
+        "template_id": "empty_html_template",
+        "width_percent": 15,
+        "stylesheet_id": "bg_dark_r"
+      }
+    ]
+
+  ]
+}
+
+#[BLOCK]
+{
+  "_id": "game_rocket_cars",
+  "template_id": "outer",
+  "width_percent": 100,
+  "stylesheet_id": "outer",
+
+  "blocks": [
+    [
+      {
+        "_id": "bg_left_rocket_cars",
+        "template_id": "empty_html_template",
+        "width_percent": 15,
+        "stylesheet_id": "bg_dark_l"
+      },
+
+      {
+        "_id": "head_rocket_cars",
+        "template_id": "head",
+        "width_percent": 70,
+        "stylesheet_id": "head",
+
+        "blocks": [
+          [
+            {
+              "_id": "title_rocket_cars",
+              "template_id": "game_title_template",
+              "width_percent": 100,
+              "stylesheet_id": "game_title",
+              "string_maps": [
+                {
+                  "_id": "title",
+                  "contents": "Rocket Cars"
+                },
+                {
+                  "_id": "img_src",
+                  "contents": "img/rocket_cars_main_banner.png"
+                }
+              ]
+
+            }
+          ],
+
+          [
+            {
+              "_id": "description_rocket_cars",
+              "template_id": "game_description_template",
+              "width_percent": 70,
+              "stylesheet_id": "game_description",
+              "string_maps": [
+                {
+                  "_id": "description",
+                  "contents": "<font color=yellow>Rocket Cars</font> is an upcoming party racing game for the <font color=yellow>Tiltspot.TV</font> platform. You control your car by using your phone, and through various game modes you will battle your friends to become the fastest, toughest and boldest racer among you. The game is inspired by old toy car racing games such as <font color=yellow>Re-Volt</font> and <font color=yellow>Micro Machines</font>."
+                },
+
+                {
+                  "_id": "download_link",
+                  "contents": "Play online: Coming soon...<p>Download here: <a base target=_top href=https://github.com/Alexander-Hjelm/rc-cars-app>GITHUB LINK</a> (Requires the <a base target=_top href=https://dev.tiltspot.tv/getting_started/game_tester>Tiltspot test app</a> to run)."
+                },
+
+                {
+                  "_id": "instructions_list",
+                  "contents": "<p>Connect to the app, first in a web browser on your PC, and then i a second browser on your phone. When the phone has connected to the game (you may have to reload the page), press Start Game.</p><p>Press the <font color=lightgreen>green</font> and <font color=red>red</font> arrows on your phone to accelerate/deccelerate. Tilt your phone like a steering wheel to steer.</p></br></br>"
+                }
+
+              ]
+            },
+
+            {
+              "_id": "screenshots_rocket_cars",
+              "template_id": "game_screenshots_template",
+              "width_percent": 30,
+              "stylesheet_id": "game_screenshots",
+              "string_maps": [
+                {
+                  "_id": "img_src_1",
+                  "contents": "img/rocket_cars_main_banner.png"
+                },
+                {
+                  "_id": "img_src_2",
+                  "contents": "img/rocket_cars_main_banner.png"
+                },
+                {
+                  "_id": "img_src_3",
+                  "contents": "img/rocket_cars_main_banner.png"
+                }
+              ]
+            }
+          ],
+
+          [
+            {
+              "_id": "footer_rocket_cars",
+              "template_id": "footer",
+              "width_percent": 100,
+              "stylesheet_id": "footer"
+            }
+          ]
+        ]
+      },
+
+      {
+        "_id": "bg_right_rocket_cars",
         "template_id": "empty_html_template",
         "width_percent": 15,
         "stylesheet_id": "bg_dark_r"
@@ -928,17 +1333,17 @@
               "string_maps": [
                 {
                   "_id": "description",
-                  "contents": "The year is 20XX, and the city of Clearbrook has been overrun by gangs of fearsome thugs! RAZE is a 2D brawler game with satisfying combat and gruesome finishers. The enemies are fully aware of their surroundings and they will hunt you down, surround you, and do whatever it takes to stop you as you pummel your way to the city core. </br> Visit <a base target=_top href=http://raze.no>http://raze.no</a>."
+                  "contents": "<p>There is no escape. The dead rack up in the hundreds. The only soul spared is the poor boy, left panting at his knees. Remorseless, the wanderer secretly plots how this boy could aid him in recovering the Discant Talae. He finally opens his mouth to speak:</p><blockquote>To Rowntree Keep, the old seat of Kin Hearthfell. That's where were going. If you are wise, you will follow.</blockquote><p>And so they set out north. Rowntree Keep was after all, where this misfortune had begun, all these years ago. Perhaps there, the wanderer would find answers...</p><p><font color=orange>Kingdom of Knurk</font> is a text-based adventure RPG that I wrote in Java a long time ago. It has had very little play time by anyone, so I leave it here for any brave soul who happens to come along and would like to unearth its long-forgotten secrets (be careful though, you know not what you might unleash...). It has A LOT of lore that is weaved into the world descriptions and the various artifacts you find, if you are interested.</p>"
                 },
 
                 {
                   "_id": "download_link",
-                  "contents": "Download here: <a base target=_top href=https://drive.google.com/drive/folders/1gSM6b8U5p-iKaSmRt77VyHgc68BDLDr6>DOWNLOAD LINK</a> </br> Play online here: <a base target=_top href=http://raze.no/game_build/index.html>PLAY LINK</a>"
+                  "contents": "The source project is available here: <a base target=_top href=ttps://github.com/Alexander-Hjelm/Kingdom-of-Knurk/>GITHUB LINK</a><p>If you have Java installed on your PC, you can compile the game from source or simply run the program from a command prompt by typing: java {PATH_TO_GAME}/bin/ProgramPackage/Program</p>"
                 },
 
                 {
                   "_id": "instructions_list",
-                  "contents": "This is a demo version. Fight your way through the city, defeating all the marked enemies to proceed. Finally, kill the boss to win. <ul> <li>Move with the arrow keys</li> <li>Jump with Space</li> <li>Attack with your two main weapons using the E and D keys</li> <li>Dodge attacks with the S key</li> <li>Bring up the inventory screen with the I key. Here you can swap out your main weapons.</li> </ul> <p> The game is also playable with a joypad. Additional information about the control bindings can be found <a base target=_top href=https://docs.google.com/document/d/1CFzylq3GK_ff4B5Zy0DH2PrUjJohq9rsCkOzcfZR63s/edit>here</a> </br> </br>"
+                  "contents": "<p>The game is played by entering commands into the terminal. During the game you can either be in the shop or the dungeon, where you can enter the following commands:</p><p>Shop:</p><ul><li><font color=orange>buy {item name}</font> - Buy the specified item and assigns it to the player inventory. Training items are permanent status effects.</li><li><font color=orange>leave</font> - Exit the shop and start the game.</li></ul><p>Dungeon:</p><ul><li><font color=orange>go{north/east/south/west/n/e/s/w}</font> - Walk in the specified direction.</li><li><font color=orange>attack {monster name}</font> - Attacks the specified monster, if present.</li><li><font color=orange>heal</font> - Heals the player, consuming one healing scroll.</li><li><font color=orange>examine {monster name}</font> - Displays statistics of the specified monster, if present.</li></ul><p>At any time, the following commands can also be entered:</p><ul><li><font color=orange>status</font> - Display inventory and statistics of the player</li><li><font color=orange>help</font> - Displays all possible commands.</li><li><font color=orange>exit</font> - Exit the game.</li></ul><p>With that, you are on your own to explore Rowntree Keep and uncover its secrets and its history...</p></br></br>"
                 }
 
               ]
