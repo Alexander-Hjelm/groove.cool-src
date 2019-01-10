@@ -437,7 +437,7 @@
 
                 {
                   "_id": "download_link",
-                  "contents": "Download here: <a base target=_top href=AAAAA>DOWNLOAD LINK</a>"
+                  "contents": "Download here: <a base target=_top href=https://www.dropbox.com/sh/1k1yocvgf6x5anr/AAAfQP5YaIdC6qcsWGcacn8ba?dl=0>DOWNLOAD LINK (Download and play in browser)</a>"
                 },
 
                 {
@@ -547,7 +547,7 @@
 
                 {
                   "_id": "download_link",
-                  "contents": "Download here: <a base target=_top href=AAAAA>DOWNLOAD LINK</a>"
+                  "contents": "Download here: <a base target=_top href=https://www.dropbox.com/sh/6ne1s1kebe49tb5/AADiKmgrOMQXvtkLVFIacKZpa?dl=0>DOWNLOAD LINK (windows)</a>"
                 },
 
                 {
@@ -657,7 +657,7 @@
 
                 {
                   "_id": "download_link",
-                  "contents": "Download here: <a base target=_top href=AAAAA>DOWNLOAD LINK</a>"
+                  "contents": "Download here: <a base target=_top href=https://www.dropbox.com/sh/gskkfytsulzv4aw/AAA5Q4PTOM7XP9mouW4LH3Jxa?dl=0>DOWNLOAD LINK (windows)</a>"
                 },
 
                 {
@@ -767,7 +767,7 @@
 
                 {
                   "_id": "download_link",
-                  "contents": "Download here: <a base target=_top href=AAAAA>DOWNLOAD LINK</a>"
+                  "contents": "Download here: <a base target=_top href=https://www.dropbox.com/sh/wqj7n8cpwifif89/AACOge5yVx01pzGeeZfIuHj4a?dl=0>DOWNLOAD LINK (windows)</a>"
                 },
 
                 {
@@ -877,7 +877,7 @@
 
                 {
                   "_id": "download_link",
-                  "contents": "Download here: <a base target=_top href=AAAAA>DOWNLOAD LINK</a>"
+                  "contents": "Download here: <a base target=_top href=https://www.dropbox.com/sh/j0aa49e1g91rcek/AADAZ2ImnaNaceCie0v-VaMea?dl=0>DOWNLOAD LINK (windows)</a>"
                 },
 
                 {
@@ -987,7 +987,7 @@
 
                 {
                   "_id": "download_link",
-                  "contents": "Download here: <a base target=_top href=AAAAA>DOWNLOAD LINK</a><p>(Requires a VR headset and a VR ready PC to run. Only tested on the HTC Vive)</p>"
+                  "contents": "Download here: <a base target=_top href=https://drive.google.com/file/d/0B86gueQEjR6kQ216YW80UGxNNHM/view?usp=sharing>DOWNLOAD LINK (Windows)</a><p>(Requires a VR headset and a VR ready PC to run. Only tested on the HTC Vive)</p>"
                 },
 
                 {
