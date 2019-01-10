@@ -308,8 +308,8 @@
                   "contents": "RAZE"
                 },
                 {
-                  "_id": "img_src",
-                  "contents": "img/raze_main_banner.png"
+                  "_id": "video_embed",
+                  "contents": "<iframe class=video_embed src=https://www.youtube-nocookie.com/embed/FhE-3oOTQCY?rel=0 frameborder=0 allow='accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>"
                 }
               ]
 
@@ -868,8 +868,8 @@
                   "contents": "KnockOff"
                 },
                 {
-                  "_id": "img_src",
-                  "contents": "img/knockoff_main_banner.png"
+                  "_id": "video_embed",
+                  "contents": "<iframe class=video_embed src=https://www.youtube-nocookie.com/embed/2aZSCjxCcr0?rel=0 frameborder=0 allow='accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>"
                 }
               ]
 
@@ -980,8 +980,8 @@
                   "contents": "Missile Command VR"
                 },
                 {
-                  "_id": "img_src",
-                  "contents": "img/missile_command_vr_main_banner.png"
+                  "_id": "video_embed",
+                  "contents": "<iframe class=video_embed src=https://www.youtube-nocookie.com/embed/Hl_DnwZGW8M?rel=0 frameborder=0 allow='accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>"
                 }
               ]
 
@@ -997,7 +997,7 @@
               "string_maps": [
                 {
                   "_id": "description",
-                  "contents": "<p><font color=hotpink>Everyone dies</font></p><p><font color=hotpink>Missile Command VR</font> was our entry to the Forsberg Gamejam 2017 in Stockholm. It is a VR version of the classic arcade game <font color=hotpink>Missile Command</font>, where you must defend your cities from incoming nuclear warheads. It features retro-style graphics that are reminiscent of the Cold War era. I was the 3D artist and visual designer on the team, and I also did some additional Unity development.</p><p>Joining me on my jam team was:</p><ul><li><font color=hotpink>Fredrik Sj&ouml;bom</font> - Programming, VR</li><li><font color=hotpink>Hua Dong</font> - Programming</li><li><font color=hotpink>Erik Engstr&ouml;m</font> - Sound effects, additional programming</li></ul><p>More info about the Forsberg Gamejam can be found here: <a base target=_top href=http://www.forsbergsskola.se/en/utbildningar/forsbergs-game-jam-weekend/>http://www.forsbergsskola.se/en/utbildningar/forsbergs-game-jam-weekend/</a></p>"
+                  "contents": "<p><font color=hotpink>Everyone dies</font></p><p><font color=hotpink>Missile Command VR</font> was our entry to the Forsberg Gamejam 2017 in Stockholm. It is a VR version of the classic arcade game <font color=hotpink>Missile Command</font>, where you must defend your cities from incoming nuclear warheads. It features retro-style graphics that are reminiscent of the Cold War era. I was the 3D artist and visual designer on the team, and I also did some additional Unity development.</p><p>Joining me on my jam team was:</p><ul><li><font color=hotpink>Fredrik Sj&ouml;borg</font> - Programming, VR</li><li><font color=hotpink>Hua Dong</font> - Programming</li><li><font color=hotpink>Erik Engstr&ouml;m</font> - Sound effects, additional programming</li></ul><p>More info about the Forsberg Gamejam can be found here: <a base target=_top href=http://www.forsbergsskola.se/en/utbildningar/forsbergs-game-jam-weekend/>http://www.forsbergsskola.se/en/utbildningar/forsbergs-game-jam-weekend/</a></p>"
                 },
 
                 {
@@ -1204,8 +1204,8 @@
                   "contents": "Rocket Cars"
                 },
                 {
-                  "_id": "img_src",
-                  "contents": "img/rocket_cars_main_banner.png"
+                  "_id": "video_embed",
+                  "contents": "<iframe class=video_embed src=https://www.youtube-nocookie.com/embed/qCCh_f-vd64?rel=0 frameborder=0 allow='accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>"
                 }
               ]
 
