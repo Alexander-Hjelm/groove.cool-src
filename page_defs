@@ -80,7 +80,7 @@
                 },
                 {
                   "_id": "img_src",
-                  "contents": "img/raze_main_banner.png"
+                  "contents": "img/deathtris_main_banner.png"
                 },
                 {
                   "_id": "img_link",
@@ -103,7 +103,7 @@
                 },
                 {
                   "_id": "img_src",
-                  "contents": "img/raze_main_banner.png"
+                  "contents": "img/freakout_main_banner.png"
                 },
                 {
                   "_id": "img_link",
@@ -126,7 +126,7 @@
                 },
                 {
                   "_id": "img_src",
-                  "contents": "img/raze_main_banner.png"
+                  "contents": "img/vector_command_main_banner.png"
                 },
                 {
                   "_id": "img_link",
@@ -149,7 +149,7 @@
                 },
                 {
                   "_id": "img_src",
-                  "contents": "img/raze_main_banner.png"
+                  "contents": "img/knockoff_main_banner.png"
                 },
                 {
                   "_id": "img_link",
@@ -172,7 +172,7 @@
                 },
                 {
                   "_id": "img_src",
-                  "contents": "img/raze_main_banner.png"
+                  "contents": "img/missile_command_vr_main_banner.png"
                 },
                 {
                   "_id": "img_link",
@@ -195,7 +195,7 @@
                 },
                 {
                   "_id": "img_src",
-                  "contents": "img/raze_main_banner.png"
+                  "contents": "img/rocket_cars_main_banner.png"
                 },
                 {
                   "_id": "img_link",
@@ -218,7 +218,7 @@
                 },
                 {
                   "_id": "img_src",
-                  "contents": "img/raze_main_banner.png"
+                  "contents": "img/moving_on_main_banner.png"
                 },
                 {
                   "_id": "img_link",
@@ -241,7 +241,7 @@
                 },
                 {
                   "_id": "img_src",
-                  "contents": "img/raze_main_banner.png"
+                  "contents": "img/kingdom_of_knurk_main_banner.png"
                 },
                 {
                   "_id": "img_link",
@@ -349,15 +349,15 @@
               "string_maps": [
                 {
                   "_id": "img_src_1",
-                  "contents": "img/raze_main_banner.png"
+                  "contents": "img/raze_screenshot_1.png"
                 },
                 {
                   "_id": "img_src_2",
-                  "contents": "img/raze_main_banner.png"
+                  "contents": "img/raze_screenshot_2.png"
                 },
                 {
                   "_id": "img_src_3",
-                  "contents": "img/raze_main_banner.png"
+                  "contents": "img/raze_screenshot_3.png"
                 }
               ]
             }
@@ -461,15 +461,15 @@
               "string_maps": [
                 {
                   "_id": "img_src_1",
-                  "contents": "img/vector_command_main_banner.png"
+                  "contents": "img/vector_command_screenshot_1.png"
                 },
                 {
                   "_id": "img_src_2",
-                  "contents": "img/vector_command_main_banner.png"
+                  "contents": "img/vector_command_screenshot_2.png"
                 },
                 {
                   "_id": "img_src_3",
-                  "contents": "img/vector_command_main_banner.png"
+                  "contents": "img/vector_command_screenshot_3.png"
                 }
               ]
             }
@@ -573,15 +573,15 @@
               "string_maps": [
                 {
                   "_id": "img_src_1",
-                  "contents": "img/farble_main_banner.png"
+                  "contents": "img/farble_screenshot_1.png"
                 },
                 {
                   "_id": "img_src_2",
-                  "contents": "img/farble_main_banner.png"
+                  "contents": "img/farble_screenshot_2.png"
                 },
                 {
                   "_id": "img_src_3",
-                  "contents": "img/farble_main_banner.png"
+                  "contents": "img/farble_screenshot_3.png"
                 }
               ]
             }
@@ -685,15 +685,15 @@
               "string_maps": [
                 {
                   "_id": "img_src_1",
-                  "contents": "img/deathtris_main_banner.png"
+                  "contents": "img/deathtris_screenshot_1.png"
                 },
                 {
                   "_id": "img_src_2",
-                  "contents": "img/deathtris_main_banner.png"
+                  "contents": "img/deathtris_screenshot_2.png"
                 },
                 {
                   "_id": "img_src_3",
-                  "contents": "img/deathtris_main_banner.png"
+                  "contents": "img/deathtris_screenshot_3.png"
                 }
               ]
             }
@@ -797,15 +797,15 @@
               "string_maps": [
                 {
                   "_id": "img_src_1",
-                  "contents": "img/freakout_main_banner.png"
+                  "contents": "img/freakout_screenshot_1.png"
                 },
                 {
                   "_id": "img_src_2",
-                  "contents": "img/freakout_main_banner.png"
+                  "contents": "img/freakout_screenshot_2.png"
                 },
                 {
                   "_id": "img_src_3",
-                  "contents": "img/freakout_main_banner.png"
+                  "contents": "img/freakout_screenshot_3.png"
                 }
               ]
             }
@@ -909,15 +909,15 @@
               "string_maps": [
                 {
                   "_id": "img_src_1",
-                  "contents": "img/knockoff_main_banner.png"
+                  "contents": "img/knockoff_screenshot_1.png"
                 },
                 {
                   "_id": "img_src_2",
-                  "contents": "img/knockoff_main_banner.png"
+                  "contents": "img/knockoff_screenshot_2.png"
                 },
                 {
                   "_id": "img_src_3",
-                  "contents": "img/knockoff_main_banner.png"
+                  "contents": "img/knockoff_screenshot_3.png"
                 }
               ]
             }
@@ -1021,15 +1021,15 @@
               "string_maps": [
                 {
                   "_id": "img_src_1",
-                  "contents": "img/missile_command_vr_main_banner.png"
+                  "contents": "img/missile_command_vr_screenshot_1.png"
                 },
                 {
                   "_id": "img_src_2",
-                  "contents": "img/missile_command_vr_main_banner.png"
+                  "contents": "img/missile_command_vr_screenshot_2.png"
                 },
                 {
                   "_id": "img_src_3",
-                  "contents": "img/missile_command_vr_main_banner.png"
+                  "contents": "img/missile_command_vr_screenshot_3.png"
                 }
               ]
             }
@@ -1133,15 +1133,15 @@
               "string_maps": [
                 {
                   "_id": "img_src_1",
-                  "contents": "img/moving_on_main_banner.png"
+                  "contents": "img/moving_on_screenshot_1.png"
                 },
                 {
                   "_id": "img_src_2",
-                  "contents": "img/moving_on_main_banner.png"
+                  "contents": "img/moving_on_screenshot_2.png"
                 },
                 {
                   "_id": "img_src_3",
-                  "contents": "img/moving_on_main_banner.png"
+                  "contents": "img/moving_on_screenshot_3.png"
                 }
               ]
             }
@@ -1245,15 +1245,15 @@
               "string_maps": [
                 {
                   "_id": "img_src_1",
-                  "contents": "img/rocket_cars_main_banner.png"
+                  "contents": "img/rocket_cars_screenshot_1.png"
                 },
                 {
                   "_id": "img_src_2",
-                  "contents": "img/rocket_cars_main_banner.png"
+                  "contents": "img/rocket_cars_screenshot_2.png"
                 },
                 {
                   "_id": "img_src_3",
-                  "contents": "img/rocket_cars_main_banner.png"
+                  "contents": "img/rocket_cars_screenshot_3.png"
                 }
               ]
             }
@@ -1357,15 +1357,15 @@
               "string_maps": [
                 {
                   "_id": "img_src_1",
-                  "contents": "img/kingdom_of_knurk_main_banner.png"
+                  "contents": "img/kingdom_of_knurk_screenshot_1.png"
                 },
                 {
                   "_id": "img_src_2",
-                  "contents": "img/kingdom_of_knurk_main_banner.png"
+                  "contents": "img/kingdom_of_knurk_screenshot_2.png"
                 },
                 {
                   "_id": "img_src_3",
-                  "contents": "img/kingdom_of_knurk_main_banner.png"
+                  "contents": "img/kingdom_of_knurk_screenshot_3.png"
                 }
               ]
             }
