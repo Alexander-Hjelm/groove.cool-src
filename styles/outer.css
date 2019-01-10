@@ -1,5 +1,5 @@
 body, html {
-    background-color: black;
+    background-image: linear-gradient(to left, Black 0%, DarkSlateGray 15%, DarkSlateGray 85%, Black 100%);
     padding: 0;
     margin: 0;
     overflow: visible;
@@ -13,4 +13,12 @@ div {
 
 iframe {
   overflow: visible;
+}
+
+.bg_left {
+  height: 100px;
+}
+
+.bg_right {
+  height: 100px;
 }

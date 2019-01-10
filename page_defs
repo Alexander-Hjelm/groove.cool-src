@@ -10,8 +10,7 @@
       {
         "_id": "bg_left",
         "template_id": "empty_html_template",
-        "width_percent": 15,
-        "stylesheet_id": "bg_dark_l"
+        "width_percent": 15
       },
 
       {
@@ -265,8 +264,7 @@
       {
         "_id": "bg_right",
         "template_id": "empty_html_template",
-        "width_percent": 15,
-        "stylesheet_id": "bg_dark_r"
+        "width_percent": 15
       }
     ]
 
@@ -285,8 +283,7 @@
       {
         "_id": "bg_left_raze",
         "template_id": "empty_html_template",
-        "width_percent": 15,
-        "stylesheet_id": "bg_dark_l"
+        "width_percent": 15
       },
 
       {
@@ -377,8 +374,7 @@
       {
         "_id": "bg_right_raze",
         "template_id": "empty_html_template",
-        "width_percent": 15,
-        "stylesheet_id": "bg_dark_r"
+        "width_percent": 15
       }
     ]
 
@@ -397,8 +393,7 @@
       {
         "_id": "bg_left_vector_command",
         "template_id": "empty_html_template",
-        "width_percent": 15,
-        "stylesheet_id": "bg_dark_l"
+        "width_percent": 15
       },
 
       {
@@ -489,8 +484,7 @@
       {
         "_id": "bg_right_vector_command",
         "template_id": "empty_html_template",
-        "width_percent": 15,
-        "stylesheet_id": "bg_dark_r"
+        "width_percent": 15
       }
     ]
 
@@ -509,8 +503,7 @@
       {
         "_id": "bg_left_farble",
         "template_id": "empty_html_template",
-        "width_percent": 15,
-        "stylesheet_id": "bg_dark_l"
+        "width_percent": 15
       },
 
       {
@@ -601,8 +594,7 @@
       {
         "_id": "bg_right_farble",
         "template_id": "empty_html_template",
-        "width_percent": 15,
-        "stylesheet_id": "bg_dark_r"
+        "width_percent": 15
       }
     ]
 
@@ -621,8 +613,7 @@
       {
         "_id": "bg_left_deathtris",
         "template_id": "empty_html_template",
-        "width_percent": 15,
-        "stylesheet_id": "bg_dark_l"
+        "width_percent": 15
       },
 
       {
@@ -713,8 +704,7 @@
       {
         "_id": "bg_right_deathtris",
         "template_id": "empty_html_template",
-        "width_percent": 15,
-        "stylesheet_id": "bg_dark_r"
+        "width_percent": 15
       }
     ]
 
@@ -733,8 +723,7 @@
       {
         "_id": "bg_left_freakout",
         "template_id": "empty_html_template",
-        "width_percent": 15,
-        "stylesheet_id": "bg_dark_l"
+        "width_percent": 15
       },
 
       {
@@ -825,8 +814,7 @@
       {
         "_id": "bg_right_freakout",
         "template_id": "empty_html_template",
-        "width_percent": 15,
-        "stylesheet_id": "bg_dark_r"
+        "width_percent": 15
       }
     ]
 
@@ -845,8 +833,7 @@
       {
         "_id": "bg_left_knockoff",
         "template_id": "empty_html_template",
-        "width_percent": 15,
-        "stylesheet_id": "bg_dark_l"
+        "width_percent": 15
       },
 
       {
@@ -937,8 +924,7 @@
       {
         "_id": "bg_right_knockoff",
         "template_id": "empty_html_template",
-        "width_percent": 15,
-        "stylesheet_id": "bg_dark_r"
+        "width_percent": 15
       }
     ]
 
@@ -957,8 +943,7 @@
       {
         "_id": "bg_left_missile_command_vr",
         "template_id": "empty_html_template",
-        "width_percent": 15,
-        "stylesheet_id": "bg_dark_l"
+        "width_percent": 15
       },
 
       {
@@ -1049,8 +1034,7 @@
       {
         "_id": "bg_right_missile_command_vr",
         "template_id": "empty_html_template",
-        "width_percent": 15,
-        "stylesheet_id": "bg_dark_r"
+        "width_percent": 15
       }
     ]
 
@@ -1069,8 +1053,7 @@
       {
         "_id": "bg_left_moving_on",
         "template_id": "empty_html_template",
-        "width_percent": 15,
-        "stylesheet_id": "bg_dark_l"
+        "width_percent": 15
       },
 
       {
@@ -1161,8 +1144,7 @@
       {
         "_id": "bg_right_moving_on",
         "template_id": "empty_html_template",
-        "width_percent": 15,
-        "stylesheet_id": "bg_dark_r"
+        "width_percent": 15
       }
     ]
 
@@ -1181,8 +1163,7 @@
       {
         "_id": "bg_left_rocket_cars",
         "template_id": "empty_html_template",
-        "width_percent": 15,
-        "stylesheet_id": "bg_dark_l"
+        "width_percent": 15
       },
 
       {
@@ -1273,8 +1254,7 @@
       {
         "_id": "bg_right_rocket_cars",
         "template_id": "empty_html_template",
-        "width_percent": 15,
-        "stylesheet_id": "bg_dark_r"
+        "width_percent": 15
       }
     ]
 
@@ -1293,8 +1273,7 @@
       {
         "_id": "bg_left_kingdom_of_knurk",
         "template_id": "empty_html_template",
-        "width_percent": 15,
-        "stylesheet_id": "bg_dark_l"
+        "width_percent": 15
       },
 
       {
@@ -1385,8 +1364,7 @@
       {
         "_id": "bg_right_kingdom_of_knurk",
         "template_id": "empty_html_template",
-        "width_percent": 15,
-        "stylesheet_id": "bg_dark_r"
+        "width_percent": 15
       }
     ]
 
@@ -1440,18 +1418,6 @@
 {
   "_id": "game_screenshots_template",
   "path": "template/game_screenshots.html"
-}
-
-#[STYLESHEET]
-{
-  "_id": "bg_dark_l",
-  "path": "styles/bg_dark_l.css"
-}
-
-#[STYLESHEET]
-{
-  "_id": "bg_dark_r",
-  "path": "styles/bg_dark_r.css"
 }
 
 #[STYLESHEET]
