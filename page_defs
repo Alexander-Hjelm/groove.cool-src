@@ -45,22 +45,22 @@
 
           [
             {
-              "_id": "game_entry_farble",
+              "_id": "game_entry_rocket_cars",
               "template_id": "game_entry_template",
               "width_percent": 100,
               "stylesheet_id": "game_entry",
               "string_maps": [
                 {
                   "_id": "title",
-                  "contents": "Farble"
+                  "contents": "Rocket Cars"
                 },
                 {
                   "_id": "img_src",
-                  "contents": "img/farble_main_banner.png"
+                  "contents": "img/rocket_cars_main_banner.png"
                 },
                 {
                   "_id": "img_link",
-                  "contents": "game_farble.html"
+                  "contents": "game_rocket_cars.html"
                 }
               ]
             }
@@ -68,68 +68,22 @@
 
           [
             {
-              "_id": "game_entry_deathtris",
+              "_id": "game_entry_moving_on",
               "template_id": "game_entry_template",
               "width_percent": 100,
               "stylesheet_id": "game_entry",
               "string_maps": [
                 {
                   "_id": "title",
-                  "contents": "Deathtris"
+                  "contents": "Moving On"
                 },
                 {
                   "_id": "img_src",
-                  "contents": "img/deathtris_main_banner.png"
+                  "contents": "img/moving_on_main_banner.png"
                 },
                 {
                   "_id": "img_link",
-                  "contents": "game_deathtris.html"
-                }
-              ]
-            }
-          ],
-
-          [
-            {
-              "_id": "game_entry_freakout",
-              "template_id": "game_entry_template",
-              "width_percent": 100,
-              "stylesheet_id": "game_entry",
-              "string_maps": [
-                {
-                  "_id": "title",
-                  "contents": "Freakout!"
-                },
-                {
-                  "_id": "img_src",
-                  "contents": "img/freakout_main_banner.png"
-                },
-                {
-                  "_id": "img_link",
-                  "contents": "game_freakout.html"
-                }
-              ]
-            }
-          ],
-
-          [
-            {
-              "_id": "game_entry_vector_command",
-              "template_id": "game_entry_template",
-              "width_percent": 100,
-              "stylesheet_id": "game_entry",
-              "string_maps": [
-                {
-                  "_id": "title",
-                  "contents": "Vector Command"
-                },
-                {
-                  "_id": "img_src",
-                  "contents": "img/vector_command_main_banner.png"
-                },
-                {
-                  "_id": "img_link",
-                  "contents": "game_vector_command.html"
+                  "contents": "game_moving_on.html"
                 }
               ]
             }
@@ -183,52 +137,6 @@
 
           [
             {
-              "_id": "game_entry_rocket_cars",
-              "template_id": "game_entry_template",
-              "width_percent": 100,
-              "stylesheet_id": "game_entry",
-              "string_maps": [
-                {
-                  "_id": "title",
-                  "contents": "Rocket Cars"
-                },
-                {
-                  "_id": "img_src",
-                  "contents": "img/rocket_cars_main_banner.png"
-                },
-                {
-                  "_id": "img_link",
-                  "contents": "game_rocket_cars.html"
-                }
-              ]
-            }
-          ],
-
-          [
-            {
-              "_id": "game_entry_moving_on",
-              "template_id": "game_entry_template",
-              "width_percent": 100,
-              "stylesheet_id": "game_entry",
-              "string_maps": [
-                {
-                  "_id": "title",
-                  "contents": "Moving On"
-                },
-                {
-                  "_id": "img_src",
-                  "contents": "img/moving_on_main_banner.png"
-                },
-                {
-                  "_id": "img_link",
-                  "contents": "game_moving_on.html"
-                }
-              ]
-            }
-          ],
-
-          [
-            {
               "_id": "game_entry_kingdom_of_knurk",
               "template_id": "game_entry_template",
               "width_percent": 100,
@@ -245,6 +153,98 @@
                 {
                   "_id": "img_link",
                   "contents": "game_kingdom_of_knurk.html"
+                }
+              ]
+            }
+          ],
+
+          [
+            {
+              "_id": "game_entry_farble",
+              "template_id": "game_entry_template",
+              "width_percent": 100,
+              "stylesheet_id": "game_entry",
+              "string_maps": [
+                {
+                  "_id": "title",
+                  "contents": "Farble"
+                },
+                {
+                  "_id": "img_src",
+                  "contents": "img/farble_main_banner.png"
+                },
+                {
+                  "_id": "img_link",
+                  "contents": "game_farble.html"
+                }
+              ]
+            }
+          ],
+
+          [
+            {
+              "_id": "game_entry_freakout",
+              "template_id": "game_entry_template",
+              "width_percent": 100,
+              "stylesheet_id": "game_entry",
+              "string_maps": [
+                {
+                  "_id": "title",
+                  "contents": "Freakout!"
+                },
+                {
+                  "_id": "img_src",
+                  "contents": "img/freakout_main_banner.png"
+                },
+                {
+                  "_id": "img_link",
+                  "contents": "game_freakout.html"
+                }
+              ]
+            }
+          ],
+
+          [
+            {
+              "_id": "game_entry_deathtris",
+              "template_id": "game_entry_template",
+              "width_percent": 100,
+              "stylesheet_id": "game_entry",
+              "string_maps": [
+                {
+                  "_id": "title",
+                  "contents": "Deathtris"
+                },
+                {
+                  "_id": "img_src",
+                  "contents": "img/deathtris_main_banner.png"
+                },
+                {
+                  "_id": "img_link",
+                  "contents": "game_deathtris.html"
+                }
+              ]
+            }
+          ],
+
+          [
+            {
+              "_id": "game_entry_vector_command",
+              "template_id": "game_entry_template",
+              "width_percent": 100,
+              "stylesheet_id": "game_entry",
+              "string_maps": [
+                {
+                  "_id": "title",
+                  "contents": "Vector Command"
+                },
+                {
+                  "_id": "img_src",
+                  "contents": "img/vector_command_main_banner.png"
+                },
+                {
+                  "_id": "img_link",
+                  "contents": "game_vector_command.html"
                 }
               ]
             }
