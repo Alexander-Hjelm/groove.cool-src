@@ -45,6 +45,29 @@
 
           [
             {
+              "_id": "game_entry_woods_of_kodama",
+              "template_id": "game_entry_template",
+              "width_percent": 100,
+              "stylesheet_id": "game_entry",
+              "string_maps": [
+                {
+                  "_id": "title",
+                  "contents": "Woods of Kodama"
+                },
+                {
+                  "_id": "img_src",
+                  "contents": "img/woods_of_kodama_main_banner.png"
+                },
+                {
+                  "_id": "img_link",
+                  "contents": "game_woods_of_kodama.html"
+                }
+              ]
+            }
+          ],
+
+          [
+            {
               "_id": "game_entry_rocket_cars",
               "template_id": "game_entry_template",
               "width_percent": 100,
@@ -872,7 +895,7 @@
               "string_maps": [
                 {
                   "_id": "description",
-                  "contents": "<p>Sit down with your friends and prepare for an epic battle. Play as your favorite world leader and blast your enemies off the last piece of rock that is left after the nuclear war!</p><p><font color=lightblue>Knock-off</font> is a multiplayer shooter that borrows the knockback mechanic from <font color=lightblue>Super Smash Brothers</font>: the more damaged you are, the further you fly. It was made in <font color=lightblue>Unity</font> by our project group in a game design project course at KTH Royal Institute of Technology. I was the lead developer and much of my time went to teaching the Unity engine to my classmates.</p><p>My team members were:</p><ul><li><font color=lightblue>Puspita Anindita</font> - 3D artist, concept artist </li><li><font color=lightblue>Per N&atilde;slund</font> - Developer, Project manager, Designer, Trailer developer</li><li><font color=lightblue>Patryk Przybysz</font> - Developer, Business manager</li></ul><p>Old landing page: <a base target=_top href=https://knockoffthegame.wordpress.com/>https://knockoffthegame.wordpress.com/</a>.</p><p>My old development diary: <a base target=_top href=https://knockoffdev.wordpress.com/>https://knockoffdev.wordpress.com/</a>.</p>"
+                  "contents": "<p>Sit down with your friends and prepare for an epic battle. Play as your favorite world leader and blast your enemies off the last piece of rock that is left after the nuclear war!</p><p><font color=lightblue>Knock-off</font> is a multiplayer shooter that borrows the knockback mechanic from <font color=lightblue>Super Smash Brothers</font>: the more damaged you are, the further you fly. It was made in <font color=lightblue>Unity</font> by our project group in a game design project course at KTH Royal Institute of Technology. I was the lead developer and much of my time went to teaching the Unity engine to my classmates.</p><p>My team members were:</p><ul><li><font color=lightblue>Puspita Anindita</font> - 3D artist, concept artist </li><li><font color=lightblue>Per N&auml;slund</font> - Developer, Project manager, Designer, Trailer developer</li><li><font color=lightblue>Patryk Przybysz</font> - Developer, Business manager</li></ul><p>Old landing page: <a base target=_top href=https://knockoffthegame.wordpress.com/>https://knockoffthegame.wordpress.com/</a>.</p><p>My old development diary: <a base target=_top href=https://knockoffdev.wordpress.com/>https://knockoffdev.wordpress.com/</a>.</p>"
                 },
 
                 {
@@ -1371,6 +1394,115 @@
   ]
 }
 
+#[BLOCK]
+{
+  "_id": "game_woods_of_kodama",
+  "template_id": "outer",
+  "width_percent": 100,
+  "stylesheet_id": "outer",
+
+  "blocks": [
+    [
+      {
+        "_id": "bg_left_woods_of_kodama",
+        "template_id": "empty_html_template",
+        "width_percent": 15
+      },
+
+      {
+        "_id": "head_woods_of_kodama",
+        "template_id": "head",
+        "width_percent": 70,
+        "stylesheet_id": "head",
+
+        "blocks": [
+          [
+            {
+              "_id": "title_woods_of_kodama",
+              "template_id": "game_title_template",
+              "width_percent": 100,
+              "stylesheet_id": "game_title",
+              "string_maps": [
+                {
+                  "_id": "title",
+                  "contents": "Woods of Kodama"
+                },
+                {
+                  "_id": "video_embed",
+                  "contents": "<iframe class=video_embed src=https://www.youtube-nocookie.com/embed/hTeYGACzTuk?rel=0 frameborder=0 allow='accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>"
+                }
+              ]
+
+            }
+          ],
+
+          [
+            {
+              "_id": "description_woods_of_kodama",
+              "template_id": "game_description_template",
+              "width_percent": 70,
+              "stylesheet_id": "game_description",
+              "string_maps": [
+                {
+                  "_id": "description",
+                  "contents": "<p><font color=lightgreen>Woods of Kodama</font> was our entry to the Global Game Jam 2019 in Stockholm. The world tree is dying and tries to save itself by creating you. You play as a forest sprite and you must restore <font color=lightgreen>color</font> to the world by painting its animals with fruit. I made the 3D models, which were mostly environment art. I also painted painting Rayman 2-style textures with Blender's texture paint mode, which I used for the first time. </p><p>Joining me on my jam team was:</p><ul><li><font color=lightgreen>Andy Chan</font> - 2D art</li><li><font color=lightgreen>Jonathan Cre&uuml;tz</font> - Programming</li><li><font color=lightgreen>Valdemar Delding</font> - Music, sound</li><li><font color=lightgreen>Henrik Maurin</font> - Programming</li><li><font color=lightgreen>Staffan N&auml;se</font> - Programming</li><li><font color=lightgreen>Adrian Parneus</font> - Programming, level design</li><li><font color=lightgreen>Ilya Voitsekh</font> - Programming</li></ul><p>More info on the game's GGJ page: <a base target=_top href=https://globalgamejam.org/2019/games/woods-kodama>https://globalgamejam.org/2019/games/woods-kodama</a></p>."
+                },
+
+                {
+                  "_id": "download_link",
+                  "contents": "Download here: <a base target=_top href=https://drive.google.com/file/d/1QYcBrp2iaxYSNOIeARRrHEE0h8-PImQY/view>DOWNLOAD LINK (Windows)</a>"
+                },
+
+                {
+                  "_id": "instructions_list",
+                  "contents": "Your goal is to shoot all animals with the fruit that matches their color, while surviving their attacks. Move with WASD and shoot fruits with E. You can pan the camera with the mouse. Optionally a gamepad can also be used.</br></br></br></br>"
+                }
+
+              ]
+            },
+
+            {
+              "_id": "screenshots_woods_of_kodama",
+              "template_id": "game_screenshots_template",
+              "width_percent": 30,
+              "stylesheet_id": "game_screenshots",
+              "string_maps": [
+                {
+                  "_id": "img_src_1",
+                  "contents": "img/woods_of_kodama_screenshot_1.png"
+                },
+                {
+                  "_id": "img_src_2",
+                  "contents": "img/woods_of_kodama_screenshot_2.png"
+                },
+                {
+                  "_id": "img_src_3",
+                  "contents": "img/woods_of_kodama_screenshot_3.png"
+                }
+              ]
+            }
+          ],
+
+          [
+            {
+              "_id": "footer_woods_of_kodama",
+              "template_id": "footer",
+              "width_percent": 100,
+              "stylesheet_id": "footer"
+            }
+          ]
+        ]
+      },
+
+      {
+        "_id": "bg_right_woods_of_kodama",
+        "template_id": "empty_html_template",
+        "width_percent": 15
+      }
+    ]
+
+  ]
+}
 
 #[TEMPLATE]
 {
